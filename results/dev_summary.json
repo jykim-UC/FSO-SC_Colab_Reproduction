@@ -1,0 +1,5136 @@
+{
+  "status": "development_only_not_final_holdout",
+  "run_id": "e23292642de7f418",
+  "source_summary_sha256": "e24e6afca12576b8a87438b9be1e4572e56151b9729ead361024b58d83752933",
+  "redactions": [
+    "coordinate filenames",
+    "per-image scores",
+    "source metadata",
+    "source-file mapping",
+    "private reuse paths"
+  ],
+  "protocol": {
+    "version": "fso_sc_bpg_repaired_v2",
+    "code_sha256": "5cab7afc26a3c8d85f0c1f56edc62bfcb145b794479c9fde7924805839e60c44",
+    "model_sha256": "89024515a0dddedf9bf83f0160dea358c4d9d481e7dab7a84be0c43d5e656366",
+    "test_zip_sha256": "558916f53c3a1cabf04d3bda5d061a120a0ab3c5bc597bb56956e2f0e6adf21a",
+    "selected_file_sha256": [
+      "5cd3b15957e86d85be27e14c05c35b8b1d3a0aa9646995404117f630b18a758e",
+      "d093be4212c184efbb87daead69bb0b55d0da6e84325eac9f33e65658a1d7f8b",
+      "2fad80f5c24928cfd53dce72ff07573f693291059baf3d78a37b139b195b8796",
+      "82aa3ccdf29aeaa6f8b3a1255532f8f58c550f0f343615d0ba8d0cd6b762267a",
+      "39e1dba8068d2af620de27421472afbe76be97fdad46683b25745fc6deb883a8",
+      "a35875fa300436200c4fe9b56687c01feb06f1ce504fc6d3977013643a925f37",
+      "4e88410983856bf3a09e91b936db2ced9d720d09259f120d6f10011917b94fbd",
+      "41ff58423114103524a85024eb29549a416af37b154de6966992f43847ca0564",
+      "36e5a076cf2ea05749a06cb2bcc26e4fdf39cc250f8139d40b8182d03c7148f4",
+      "36559d2545c16bb7eca9ee449b893c48596d2114b7b000a1819e16d4035e826e",
+      "0066845163f38a25828bfa1e29516b0a472661a09893d66fdf611694ad8f8284",
+      "241f921d4cd85481e077b18605fb2d2b1ae4d52f954c86a8a743e603af0b75ec",
+      "51272a4151c4e994491cdc6c2ec65d64bf3dd2d70e4c223b578531635eb11042",
+      "26b9c2917759aa9d90241b26b7fc1de4e64ad52b1a6307a5ba33095d054e19c2",
+      "0679c8b0537a146003135e865121b10b489c18b661562795074a4c46987f2edd",
+      "a990fc5b32d6958f31feeecf0357c7e79ec463f418f1a341ece481314f7d1f55",
+      "75b884dd33d394d344c21ee8e7b66421b43ea8cfa0982cbb76f78685428cd9f2",
+      "b310a4a603a4b7b49c4f73fd15cf1a8500625a65fc9509547ef0cfd5b13a3678",
+      "aa5563a85b650cd318402efed4f90bdaaf1d040a6603f1af4fecd17bb1a3d2c3",
+      "20f7ff1137e25b4238efe36281032f8e219e48ff2bec837c02d6941c83b2c46c",
+      "32b668e9e325e12ef684de614ce85d30fd2b2dd3496fa6a196f3f70270a65728",
+      "e2f65ef69904f43aa56eba11f5b03451df30d446cc9e0e1132c74fafe4d9032f",
+      "1d36b5bb3a75f95e0c2d624ba5acf329117b2a331f7f83624b0a819966a5e605",
+      "79d2ee709fe90a80392c3ea347b245853a2df6885b5a08e12695e95a5b1fa5ae",
+      "19c4310b6e09bc4b22082dfb82e88d33c8fd53daea76c08bbf32c099c93e22e2",
+      "9792b8709c6ac19d37bcb83aaca038f7c34b171f0cc3c0ad907179d70eab5fd2",
+      "e14457b5749ec675fcc92e2ee2dee0898f73fea0aa30562934ce397428435a1f",
+      "9df229ed3b72c6f9ca679843b977eedc9fd4a0c7d9cba087242950483e98266f",
+      "0127d7350d9710721527acfacfed0492dc9bacb0cee58108f994bee8cf03fec3",
+      "5c120f923a95c00b5a9c1f6328bbc9cda0850ab7cd9fe68c35b60bbe51ece0f3",
+      "3b8b929104cf13efab270b7e56ba0f38183857955095ec84191495eac11c740f",
+      "bf025830ab71f7afeb66ca9a28e27e456a5928119ea2c18d00bcc6656170cd0f",
+      "dc73c114a23d9a276a30159b29644b60fc23d7e8b993dc60033a4b19897cf786",
+      "58008f06339e96301472f4146cec2558e25e79df4d0e0aa8511d08a9fe5d409e",
+      "30c131076a387144a12eea1f98f9a4fca2f5af812c0e4a57d7325adff5fb0c49",
+      "eb1ca8d5f10b62163c9ed65701d2bd1e67bff9125c8b7f0bcaf5c31f1f02ac3e",
+      "c0f77f115e4502dd098e37f9bbeb7cc2020665e14c5ee461e2ce4b515eeec76d",
+      "dc2d61864f7af14f4a8eebf7898483f1acc9e5b2f7e4ca2da3caaad7679e61a8",
+      "40d9ebc0983e831d0f8780cac97d2dd788a681bc11f56f85d429311dceee5902",
+      "13cf06d91aecfbbf8ce84553c0cee40fb0a2f8a428aa78434b5371780686a56d",
+      "2e8151a6bb8aeec62a83a29bdb93303bb7265cb28ef5deb9fc2bb6f933e4801e",
+      "a6b632bcdc8e1b77a219c6464867b4fb3ae55d453cd0fa6244e29d9a54bb80a3",
+      "ba31ae258a567cd94531ef9009dcaa08622bed1722bc458457659f9dbcbeb408",
+      "531c76caf1ac8c69f1d4d07a8e17a86c20f4e45977dd676d9c267f3a1b448e74",
+      "c1031d72142bb2a637870b199a826740a1a219249aa1f913ec28080cf3fc7f32",
+      "45b78077660897b40a0f02bd1166111058fc7a0c885f090a64562b5c95af7791",
+      "05fa9cbc11ca5d438f4a7fd8f2f263f85f0f014f034dcc099a711dee58022289",
+      "77cde4cee01ec4f412069aa2ae6ca3d50154e6a95587596652f4d002d83325d7",
+      "32aaab923cda5b9aa647da5818096ed7c6f2c9f857bf5c04f6238428fcd9bf4d",
+      "5debd9bd1bcf027bd3df503b3fb73a68924fbd5b3d7c55852f379c06cb61f238",
+      "9a4aee6a95b54619f7c8541a6497e69133bde39d782f18aa6b119ecdd6da0ffb",
+      "d7cca1a9ed20b8edf8b50e8882cf0a1ae705349957bff78211dbd08f4bf5e192",
+      "5ae768884ba8c293738e481645b30e939930a6494ed00f2df6c1b2a7140148de",
+      "38285e3424177b69ec49d8db865a0c83452012dd4a00b46e9dda6f406836110c",
+      "5416f31fef1d2f4b52d001216e07fbe78ba73b88251ae698689f9a6b218f34b9",
+      "c7114b8b0457f5d66da3f5cfdaefc188b300cc66e270768a48d0df9fca9ddae4",
+      "2e63938b2fcd265175ae05748f4e266ac8dc01bd2a38294bd42d515f3a21ac85",
+      "0fa3fae44c1eb015fe9adc1c7dd2da907acce30ef080449e5b1d53b71a9d843b",
+      "7e74b61f3e6334fb3c0b359f71c9cd53e1982b50cd5427a94f36940db9de8fb2",
+      "98f7731a4426d8c50ad3f9203f1e1d3bbf643aed9564e29139f29f9f0dcab26e",
+      "634ee8ab28a8b1ddfa650054230cdcc97c970f8c51c45c719c34b0605964200e",
+      "a7b5aab179ed65fc4b0ebe2ebb28a31a8535f93fa3e1f899dd3c6f81053b8deb",
+      "fb52cd526ff3768381eda8772955dd139630b1c92448d3ecedd800ecf14eec90",
+      "7d33d0329a2b9d2c2784176df8e36680b9ccd16896c9677e9cc96307c4e7c5b0",
+      "499c8b5c58b4cce859361df6854f179566072c4426c8d9ed020749ffe7f9b50f",
+      "f927560f9717e9bfc3db93530abc7e8654444162c84677bdf547d4018c0d3670",
+      "384e0cda59102c2e30428d0327ed6d9de19a1ed8a5634423fc8d1456d950f920",
+      "d2ccef9b3bd71cbe5ef6ed83c740730ceba96d16cde0fd060b34c59c74b347c9",
+      "792506db3de2185698771bcba1ab498bc7ec04e1d6d40406167cadccdd378770",
+      "ee7bf71097a5622c351f08abad14c11a9adec0b358c858c83302ee7d4b2fef03",
+      "367126122831aa7424a9498c641885faf8461456fd6e86b1d8b915d920401d81",
+      "1932b91f7bbe4cde3fe574328ab25ee7c7c92f8a1c8889ade9a5bcce8bb4a6fa",
+      "a8f21e01fe3828636c0a50e126554627ca10371815e24d99d2b167ac6f896cdf",
+      "5bb51e4ddda8bf153b6623460c5029d355d7ccd835a9ce1b63e46f29bc27dae0",
+      "2295f88b3afc6eb315197029301c0611399638894e36d518de076c7c95112cf2",
+      "3a4cde911a3bec8da83cd0b644ee297788d5b85a0af9f2eff2a5cfcd779c333e",
+      "513a05cf9fffd22ef77fff7686a9bf0054c06ed46ea506fde62763b867415e20",
+      "27eb5e3c07fcc322a18a8a5a63fd03877e16b86c0516e6fe4cd656da5e280c05",
+      "04dff21d7d781ff8ea2ed80f6da1a165e7797f9a398b4fd930bb935d84fae8d8",
+      "9f74a9537358bd01beedb7ae65a5abeb9ba74c06d1cd036aa70256e3b7793029",
+      "76ebba41843d5e5007eca1207ba93950938ac0d2c82163bcd6bbee0bdb55e861",
+      "749a2c0ae14ffac85a74ae6ad8f518175790c4ca1d997895ffa9b863ccb62dbb",
+      "141fe37ce0253cb31db8fd9b604c4c9673f5b7de9aea16d7c00c4758aa6f35e6",
+      "1ed1c79090c93e3f3ba4503b11b19d8f4a027c9ddcb4394fc3b6859584ea80f8",
+      "279cc38806a4e37f44a799845db932d4839b34e7b14b933146bcff349661d78f",
+      "1628c2c04b97b49be78116becb52a0c881654de00604da82928aa7b4dae90013",
+      "f1527fec7f84aa65818f46672a38a39617ae498e62ec741c96f2a16d6a9d9d2f",
+      "38f327e85514eb45fef5ae3eb06117ab2e16df93ec4a8b85e475d3e04265c69b",
+      "a55621a66ebff5ef62a96a300b1167c7331c2a9fad28396cdba67b9cf9d73455",
+      "ca04b5d93626b9c802db94d584ea872d2d4d8292ec5f082c90818ac6fbab5c8b",
+      "075cf56c692f03d94602f7174152164e29f6fcc3e213fe20b86394d29c044af2",
+      "db76760e12ebdbb1902cec332f7bdcf24dafe33fe8eba0bf7ab0a2b05006d434",
+      "ae2015c7a2ca470b32af4321f30eb839dfc3ef015fcbc19e59092fa11c1f13a8",
+      "2591258305dd07328766dcffb7232b23ae78a88a61d9a878ed913105cd21c3e8",
+      "9f879f6d8aa9e5eb62cb3af349cfe8fc15e8eb9fc6262cb8a377688c597dd242",
+      "3084c85b7fa890e77560bc72e757fadae863d9d32bfa30b3cb28cd74188ebcd9",
+      "aa9fede7e598760298a43ddc1ea9aee4b4b4e6efd6c716f84196cb293abe8c09",
+      "4c722fa5afb35046c62ddb85504502d535cbed2fecdd9fbc1ee6b464a11a8d0a",
+      "a399dc2f02c8d4432dc14604458e3ab591b6205a8bad07c965efc84ffb7384a6",
+      "29f63c30a424c41864cf024bff7badecc8a25f141f50236c7eaca44c851d148f",
+      "d969db429415ebe59b6d8d77857262ef3a03a1746e0df78b22d08160ff6c1e89",
+      "6d1f0862f5e340d61854b140619859d5941cf9835788f3e71711c839ead556b4",
+      "e8e1d414971b5b6d696f83ddd2603a7021c07a3557c226684628ddb312569fef",
+      "d50f39bb907d192d963ee4f7308e890ea35a55412647b6a515f491c5cf251142",
+      "0371dd8e6d255c728c45103c8adc87fbf93770559b1b2534f4fc848d1a58b9ea",
+      "b73baa26e681c985f3b9798957e03bde2b4e573896b3904287a88c80a2b93b3e",
+      "553338da2701b87521a32ba805028a46d66ee0c6c6ad4e85c50df9cf50e167b6",
+      "a27e8db63340cb177a85d996eba4e9fe23764fb05fb9687133ee99910a0ea34a",
+      "446896b6489600ee23701379b84232fca38edc64e8c4cc90efeb579006be6662",
+      "f8126fb31bd1ecea2b84152f6674f5b437e561102e63d6f4ceb03100434d7772",
+      "3dcd17e02aae26c95a49837a391966b0b650d44d575c751e3a47bb1c73d3c23e",
+      "d34727afb4ffd8d7c3f812156cfcb52b7dfb0498b7e5ffa3247a59fdaab40e44",
+      "762bee91ab3300e45c3e67c791694f5e9e40dd48676458697ecdc45d09a14569",
+      "d277aea55028d6ecf6362b67a7c62d75ddeebcb6fb19c700d0ddf01f58be84a3",
+      "5958f91d8bb273bbf211d7ab1511d885afee981e219b4943eae1ecfab3370b17",
+      "332c392379f7a2307826bc57368d861dae2c596475f3193d861ca586cf3ad873",
+      "82ba018e345e09ec588090eaa6d5030da344d6393ecbc0b091d7d6c01027403d",
+      "e69d0876a300db1e031d0cb0a01f3bb0e63c01276176fcd5a2cdd279c07af807",
+      "e345ec6f23f6de8abc8194790b24b86bf456626076e1deebb013f4bb9ea863e0",
+      "2a40eac16287efd2e163305ea3a4b517ab642c23b229cc77ffdeb6f600e4e544",
+      "fc93a2eb65773a02a1711593d82795c65528f9212f025e48f79e6f9eddfdfa54",
+      "eb024b1f260cad8cc06aa53080d3c878d461a76e712237d83e234b46a072d00d",
+      "832d52d7219035a23a80c986cd41c2961c1be6aa7f83300e928d9a7435d5f893",
+      "3558079ab6c1f10699922b3dae791721a79dea43128312de14bcc85f46d9165b",
+      "f58ec063bab0102aa2f7d27e3b13d34b0e31e5a60af64d31776e23e1fb29e376",
+      "c7e618454af33dd23340e8ec92d344dd3427cba435323ecd7e853c14022297c8",
+      "5d542cf81e85c032a23824fb06a5954b8471f77bb7ea92fdef962002e4413a37",
+      "6212fdd2df4135dff2a4f1e8952041ef98143dd4dbb0974f0fb172a21ca4adc5",
+      "af2bbfaa1cdd9aec1d5eef54f195b70122c3039bcad509ecc78233ffd5e52f6a",
+      "54679d0adb8a82eac4afde1ab7fdcde2308e1156254d8fa040d6e5236cfb6e3c",
+      "6875b7f3b4696412011b80ccac0ae7b1afafab19e70a195bce1186d49e021cda",
+      "83f8436a8ad19dc5f504b38407177ce9a761b8550b2dd78f6394676221c2bca8",
+      "eec49884333a7884063392202575e3f3342aa6a4ae4c0d6a9b93db5db0a64b9a",
+      "0e2ddf287e7584f51552daf7d41f4d85e9cd406da782015f5031a95cd95871a0",
+      "bf4819ae63911316798b91d7663f6a48c686930e1517305b307da44a68f8da26",
+      "e3164b923baab1fbca4ab356b80fb9e1a9daa944bfd78d9268b11ae8434020ce",
+      "1269e5f1b5b64c8442881cf6aae6380d387eced7312ec5e89d677466967ee3d2",
+      "8d7c37d7b3c2ae9536a79dc73c978546bdae97f5050531989354ec29f2a7dd59",
+      "5f09033528e4da13c2ebefd8dafc8d749293d6a12e1021a6c2ff78aa0e54d157",
+      "fae6ebd585ac5b0f558231478ad79fe19dd4c58faa94beb2cb1ebfa002dce89d",
+      "63ebb29d693bb899b4f8271559b08766c525fd555519f0d20d70df319dee630a",
+      "18d63182f56c67e61fc78dc3179ad89ab7e443d6c95f431721202fe0129de547",
+      "46533741c06ed67856bbaf606dcd67357979e06c9434991d8cbc88aa5ede851d",
+      "92e0727f52430f0f457dcd108ca3ae6df86e38f153d3281f2f9d7c3c0d635805",
+      "5715abe0581dba527e32f73cc3a6d92c67ba69448b31636135501012da89841b",
+      "f06805289345f5e8b24c25507edf4d45316d9775aaddd18c34a0febf3277ca1a",
+      "a3bd77ef4e109265d159ac450fd96b2b2bd3630fafdb57fe57fa57a0519637bf",
+      "3220a60a4764025feb88510610f61f0ba228041e66a56f3dc4a332ce1b9a884b",
+      "51d5b11aca2a022fceeb7f40f853cca843acb0927dbcd1451525a6d048c6a52d",
+      "6546982643a9a818a288b099c5f87e0c7f16a18597b104da060239b405a0313a",
+      "74e2ae59d0c07c953be1be0036dc681324bb7b350dd43db9ae09049e358003d9",
+      "7d1c26659b5abc30b4461304e0d55a45938a0202fb4dda162642ff6cdbc7583b",
+      "f0b363599559a9bbf9ff2b973f655f010c1478c84d74b6fe70d388224710df09",
+      "bc7eb8de8925187e8cec597e27caa7eccc6464027220e47cfaeea9c88c477c5c",
+      "fb4aedce8f218b1e0bca705da987cbec8072744ba1b1ffa055b0f34bb0565b68",
+      "625023052b7d4ec21f9449e9e2983590976dca8ad4040b42961775bdd94b7e13",
+      "1bf9feae32fe5ce0a380a3d37b4754ce1b18b63d05d6bb931854519ea1a661b6",
+      "38ef6a56173fd38bd4129130a9632bc3767d5369a2d486900f8568e43eb8d9f4",
+      "881e5969b0cc5ae398f845580772401efe205756f3a17d63549f23ff5c6a0a6d",
+      "801ed1c5358365b330eebb20cb4f7480fe83a96cb240544509db85b37410deaf",
+      "57c7f9893706b98cb1b263db5da76f6b7336380684efcfe9a167b77384cf5c6b",
+      "0428ba35ff505fa6cedc57e046a455ade950dcd487cdfee7a94743c494a68d2d",
+      "5229daa45017552fd32669dcf4a96e45dff97671f5adcff6aa2e46f7d0140112",
+      "3cbfaa6d4563c235b0907c2375dd44f3b96d591099def6946e870d66a2a86547",
+      "37e7e20d527ee6051d49773937c09beb8d178c20de96786ec44494927e9e5190",
+      "e6b92e3fc05a80b270909b215ecb8fe6236c4da2df3d93ce225675115c19ea84",
+      "47d78f81622fab2b16724c81c6cf0c578e2fb2796f232bd4eb24e594373559ca",
+      "4d8dcb6103b5cde63d643b86d5232a092c0adb5ac64d5805cecacfa4301867a9",
+      "1b8930c4e710f3484d1b6bbde884a4c24f83cd8b77a694a59716e849ee506841",
+      "6a68787b742f537eb20b088a5c9834bb03c28d0eb03ff671f9b8ff3f07395388",
+      "fb2e3ba905df1ae445ec49e8177940a17407e04bd2059a64715740039fc92d4c",
+      "4da39f2289e89580e18ece044b3df3ea9694b8cccf0583aa6f8d2f7384b71f10",
+      "6055a941f23c0adfabdf76e54581c320ad8f2315d69bee5521d5416ecaef7a6c",
+      "8ec11e81552d3696e99982476a898b20ef63825e77e3cf2a7c5cc0d8411a381f",
+      "94d75d14c434f35a4cd69c76973a093a02287c2ad01ce8a01f0d6052a04e19a3",
+      "9ef8d947eb2796927fb9fa8926b44df99a1888cb92b40060f78ce6f532bac088",
+      "03b71f226ea44462a1ff05875a802b60fe89c41a952f879979956d32b8cc57c6",
+      "4477fcdd39a8d7496347489d19943f5e3034a19fdb1fbe7efc4ac80f967a71f8",
+      "a31bcc6af1b7dc739114ef1d8037be760b99a6fec1c93efd3fb594bc06f99358",
+      "d236b796c8d65f93d3df173d26ea568d7bc794d45f97a75933729dcb0163b004",
+      "383f1af4bb2eaa49811f0027d7ec0f89db9b340aef36616367c692b5c81d5f24",
+      "95dcf2b60941b5910ab09a008eddc61fad56dfb03a59b3a7ab1b6f845cd0fe03",
+      "867884ca840bb4cffc94cb14784a59146ec17d21445fcbd912a76dcd56a288d9",
+      "c1687df1cafab395dc4667d979a03d93ece90a53af90e000ed55918c1bf6ea82",
+      "18e95729761855bd29115435ea4aa3720418e954fab04dc1996a423317d5ba75",
+      "e32f5f34729d144d028482e251ee067bfe6535a534dca4354e6bd5cad54b7c83",
+      "a7e3f1b3772181ebc9dd1f14028659b654087640535343159281822e5644994f",
+      "948c52fac43e824a898f1b322ef815d1c85ae5d2e84001d078585ad0ce53347c",
+      "de929ec280ef96561b8735c5ae9494f057cb9de0720c5f0972708c7cc1fc70cc",
+      "c4da157f7c39aafae8c0661eb062391d442442202a3f8b740dc0e92cd6940299",
+      "24cd687a287375d73d5cf90864e7c0314a180fe81af899cce5fe86ddb7f26d64",
+      "9d7258d88bad246c31aae1fe27311016399fed9409d188ef8ec6b5971d130e8f",
+      "413f07cfa1eb10f6413ea8d977b392d05de767bf4bda512038954b9a004a13a0",
+      "d4dc0e275bfbadf5bf612b69fb6c9fc661fb338c7cc6ddd5a47d49b05ea85916",
+      "339b927f038ba1c46dff3a7497ba07609578b8a85ee910819aebe439770f57dd",
+      "e574bc98610b37e4c4b4422efdfb3666db6f72bb1b67388ee655b163cb962ca1",
+      "a409ed9ff99ba4e15aeaa32db6bfb186a72204a376899033f62a1ba270355940",
+      "6b379aecea6514f6a76fd867ed5812830569fd228f9779b6726999cc3d3f3ecd",
+      "176260b73073aae1dcb99f05af28555b4682c100e063d4d4c45aebc6bb209a48",
+      "7dcf4a149ee83236fc6467851c1a992b4107d833c99d7977324bc24ed989c927"
+    ],
+    "seed": 20261028,
+    "role": "development comparison on previously used200; not final holdout",
+    "source_bitrate_target_mean_bpp": 0.21875,
+    "source_bitrate_actual_mean_bpp": 0.21875,
+    "rate_match": {
+      "rate_control": "bpg_native_integer_qp_dataset_mean_v1",
+      "selection_inputs": [
+        "image_name",
+        "encoded_byte_count"
+      ],
+      "quality_metric_used_for_selection": false,
+      "snr_used_for_selection": false,
+      "rate_matching_scope": "dataset_mean_not_per_image",
+      "num_images": 200,
+      "target_bytes_per_image": 1792,
+      "target_total_bytes": 358400,
+      "actual_total_bytes": 358400,
+      "aggregate_shortfall_bytes": 0,
+      "mean_actual_bytes": 1792.0,
+      "actual_mean_bpp": 0.21875,
+      "target_mean_bpp": 0.21875,
+      "min_actual_bytes": 1286,
+      "max_actual_bytes": 2272,
+      "min_actual_bpp": 0.156982421875,
+      "max_actual_bpp": 0.27734375,
+      "per_image_hard_cap_bytes": null,
+      "images_above_per_image_reference": 95,
+      "selected_high_count": 95,
+      "selected_low_count": 105,
+      "padding_bytes": 0,
+      "seed": 20261028,
+      "subset_sum_states": 30754,
+      "aggregate_optimality": "largest achievable total <= target over retained native candidate pairs",
+      "qp_search_global_optimality_claimed": false,
+      "source_manifest_sha256": "df83eca95f5591aed8159a6ea15ebd4eec02ec7e005feaa15df020f77c9c3bbd",
+      "reuse_policy": "freeze this exact mapping across both BPG branches and every channel condition"
+    },
+    "source_cache_id": "b015d27b23f46d64",
+    "codec_build": {
+      "release": "0.9.8",
+      "official_distribution_url": "https://bellard.org/bpg/libbpg-0.9.8.tar.gz",
+      "archive_sha256": "c0788e23bdf1a7d36cb4424ccb2fae4c7789ac94949563c4ad0e2569d3bf0095",
+      "publisher_signature_verified": false,
+      "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+      "build_command": "CMake3.28.3 explicit8/10/12bit configure; make -j2 bpgenc bpgdec USE_BPGVIEW= USE_JCTVC= CMAKE_OPTS=-DENABLE_LIBNUMA=OFF",
+      "build_recipe": "libbpg098-cmake3283-v2",
+      "encoder_binary_sha256": "e8019d7ad83a70d5d3c33edee7e2b83205d3b7a6776693fafd254a28836f0d17",
+      "decoder_binary_sha256": "cb649598fd67db1d397202fdd130ceeff57e5753770ce4c0f6f2c8e4f25488cc",
+      "redistribution": "Do not commit codecs/DLLs to GitHub. Upstream encoder GPLv2, decoder mixed BSD/LGPL2.1; see bundled licenses."
+    },
+    "ldpc": {
+      "name": "systematic_ra_2048_1536_seeded_v1",
+      "n": 2048,
+      "k": 1536,
+      "m": 512,
+      "rate": 0.75,
+      "seed": 20261028,
+      "matrix_sha256": "12b54decfac6134e232ac460ebed1d2c5169aba3488a9ebfa638c2e806b40037",
+      "matrix_hash_encoding": "row-major (check,variable), uint16 little endian pairs",
+      "edge_count": 5631,
+      "information_column_weight": 3,
+      "check_degree_min": 10,
+      "check_degree_max": 11,
+      "four_cycles": 0,
+      "decoder": "flooding normalized min-sum with syndrome early stopping",
+      "normalization": 0.8,
+      "max_iterations": 50,
+      "llr_clip": 30.0,
+      "llr_convention": "log(P0/P1); positive means bit zero",
+      "paper_dimensions_matched": true,
+      "paper_matrix_reproduced": false,
+      "matrix_assumption": "H=[seeded balanced column-weight-3 A | lower-bidiagonal D]",
+      "construction_reference": "H. Jin thesis, Chapter 7, https://thesis.caltech.edu/3191/1/HJinthesis.pdf",
+      "convergence_is_crc": false
+    },
+    "conditions": [
+      {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      }
+    ],
+    "profiles": {
+      "paper_eq3_4_background_only": {
+        "profile": "paper_eq3_4_background_only",
+        "noise_flags": {
+          "include_background_noise": true,
+          "include_ase_noise": false,
+          "include_shot_noise": false
+        },
+        "basis": "Chen et al. Eq. (3) defines n(t) as background-light noise; Eq. (4) gives its collected optical power. No receiver shot or ASE term is printed in those equations.",
+        "diagnostic_only": false,
+        "full_vpi_reproduction": false,
+        "physical_superiority_claim": false,
+        "curve_fitted": false,
+        "limitations": [
+          "Eq. (4) optical background power to complex matched-filter variance is an implementation approximation, not a disclosed receiver transfer.",
+          "FOV unit, optical filter width, Malaga phase/beta, fading coherence and proprietary coherent receiver/DSP details remain assumptions.",
+          "Background-only omission of quantum shot noise is an equation-level idealization, not a physically complete coherent receiver.",
+          "ASE bandwidth/post-EDFA launch reference and shot bandwidth/polarization are inferred; neither establishes the undisclosed VPI configuration."
+        ],
+        "provenance": {
+          "paper": "https://ieeexplore.ieee.org/document/10969992/",
+          "published_channel": "Chen et al., Sec. II-B, Eqs. (3)-(4); Table I",
+          "v6_shot_reference": "https://doi.org/10.1103/PhysRevA.77.032116",
+          "selection_rule": "Choose explicitly before examining evaluation outcomes."
+        }
+      },
+      "coherent_receiver_extension_v6": {
+        "profile": "coherent_receiver_extension_v6",
+        "noise_flags": {
+          "include_background_noise": true,
+          "include_ase_noise": true,
+          "include_shot_noise": true
+        },
+        "basis": "Unchanged v6 interpretation: background plus propagated transmitter EDFA ASE and input-referred single-polarization heterodyne shot noise.",
+        "diagnostic_only": false,
+        "full_vpi_reproduction": false,
+        "physical_superiority_claim": false,
+        "curve_fitted": false,
+        "limitations": [
+          "Eq. (4) optical background power to complex matched-filter variance is an implementation approximation, not a disclosed receiver transfer.",
+          "FOV unit, optical filter width, Malaga phase/beta, fading coherence and proprietary coherent receiver/DSP details remain assumptions.",
+          "Background-only omission of quantum shot noise is an equation-level idealization, not a physically complete coherent receiver.",
+          "ASE bandwidth/post-EDFA launch reference and shot bandwidth/polarization are inferred; neither establishes the undisclosed VPI configuration."
+        ],
+        "provenance": {
+          "paper": "https://ieeexplore.ieee.org/document/10969992/",
+          "published_channel": "Chen et al., Sec. II-B, Eqs. (3)-(4); Table I",
+          "v6_shot_reference": "https://doi.org/10.1103/PhysRevA.77.032116",
+          "selection_rule": "Choose explicitly before examining evaluation outcomes."
+        }
+      }
+    },
+    "profile_configs": {
+      "paper_eq3_4_background_only": {
+        "wavelength_m": 1.55e-06,
+        "satellite_altitude_m": 620000.0,
+        "receiver_altitude_m": 0.0,
+        "earth_radius_m": 6371000.0,
+        "earth_gravitational_parameter": 398600441800000.0,
+        "light_speed_m_s": 299792458.0,
+        "planck_constant_j_s": 6.62607015e-34,
+        "electron_charge_c": 1.602176634e-19,
+        "beam_radius_m": 0.05,
+        "receiver_aperture_m": 0.318,
+        "rms_wind_speed_m_s": 21.0,
+        "ground_cn2_m_neg_two_thirds": 1.7e-14,
+        "atmospheric_range_m": 20000.0,
+        "fog_range_m": 8000.0,
+        "field_of_view_rad": 0.1,
+        "optical_filter_bandwidth_um": 0.001,
+        "symbol_rate_baud": 28000000000.0,
+        "amplifier_gain_db": 30.0,
+        "amplifier_noise_figure_db": 4.0,
+        "lo_linewidth_hz": 1000.0,
+        "photodiode_responsivity_a_w": 0.85,
+        "doppler_residual_ratio": 0.1,
+        "malaga_omega": 0.5,
+        "malaga_b0": 0.25,
+        "malaga_phase_difference_rad": 1.5707963267948966,
+        "malaga_beta": null,
+        "max_derived_beta": 1000,
+        "beta_fit_policy": "nearest_warn",
+        "beta_fit_relative_tolerance": 0.001,
+        "integration_points": 4097,
+        "integration_grid_power": 2.0,
+        "num_receivers": 1,
+        "combining": "MRC",
+        "include_turbulence": true,
+        "include_background_noise": true,
+        "include_ase_noise": false,
+        "include_shot_noise": false,
+        "heterodyne_shot_noise_convention": 1.0,
+        "include_doppler": true,
+        "include_phase_noise": true,
+        "launch_power_dbm": 33.0,
+        "zenith_angle_deg": 30.0,
+        "pointing_error_urad": 20.0,
+        "scattered_power_ratio": 0.95,
+        "background_light_radiance_w_m2_sr_um": 0.0001,
+        "weather": "clear"
+      },
+      "coherent_receiver_extension_v6": {
+        "wavelength_m": 1.55e-06,
+        "satellite_altitude_m": 620000.0,
+        "receiver_altitude_m": 0.0,
+        "earth_radius_m": 6371000.0,
+        "earth_gravitational_parameter": 398600441800000.0,
+        "light_speed_m_s": 299792458.0,
+        "planck_constant_j_s": 6.62607015e-34,
+        "electron_charge_c": 1.602176634e-19,
+        "beam_radius_m": 0.05,
+        "receiver_aperture_m": 0.318,
+        "rms_wind_speed_m_s": 21.0,
+        "ground_cn2_m_neg_two_thirds": 1.7e-14,
+        "atmospheric_range_m": 20000.0,
+        "fog_range_m": 8000.0,
+        "field_of_view_rad": 0.1,
+        "optical_filter_bandwidth_um": 0.001,
+        "symbol_rate_baud": 28000000000.0,
+        "amplifier_gain_db": 30.0,
+        "amplifier_noise_figure_db": 4.0,
+        "lo_linewidth_hz": 1000.0,
+        "photodiode_responsivity_a_w": 0.85,
+        "doppler_residual_ratio": 0.1,
+        "malaga_omega": 0.5,
+        "malaga_b0": 0.25,
+        "malaga_phase_difference_rad": 1.5707963267948966,
+        "malaga_beta": null,
+        "max_derived_beta": 1000,
+        "beta_fit_policy": "nearest_warn",
+        "beta_fit_relative_tolerance": 0.001,
+        "integration_points": 4097,
+        "integration_grid_power": 2.0,
+        "num_receivers": 1,
+        "combining": "MRC",
+        "include_turbulence": true,
+        "include_background_noise": true,
+        "include_ase_noise": true,
+        "include_shot_noise": true,
+        "heterodyne_shot_noise_convention": 1.0,
+        "include_doppler": true,
+        "include_phase_noise": true,
+        "launch_power_dbm": 33.0,
+        "zenith_angle_deg": 30.0,
+        "pointing_error_urad": 20.0,
+        "scattered_power_ratio": 0.95,
+        "background_light_radiance_w_m2_sr_um": 0.0001,
+        "weather": "clear"
+      }
+    },
+    "dsp": {
+      "amplitude_mode": "known_block_magnitude",
+      "cfo_fft_oversampling": 4,
+      "cfo_newton_steps": 4,
+      "bps_test_phases": 64,
+      "bps_window_symbols": 65,
+      "cfo_enabled": true,
+      "cpr_enabled": true
+    },
+    "rect8_repair": {
+      "receiver_version": "rect8_constellation_ml_cfr_dd_ml_cpr_v2",
+      "affected_modulation": "8QAM",
+      "scope": "rectangular 8QAM only; QPSK and 16QAM use unchanged v1",
+      "coarse_cfr": "v1 fourth-power FFT and Newton periodogram refinement",
+      "fine_cfr": "received-sample constellation-distance likelihood; frequency and constant phase jointly fitted",
+      "cpr": "two windowed decision-directed ML phase updates, arg(sum(y*conj(decision)))",
+      "acquisition_search": "one unoversampled fourth-harmonic CFO bin either side of the coarse estimate",
+      "acquisition_samples": "at most 2048 uniformly spaced received samples; no data-dependent sampling",
+      "fine_frequency_trials": 17,
+      "fine_newton_steps": 5,
+      "phase_trials_and_window": "unchanged SignalDSPConfig phase count and window length",
+      "phase_ambiguity": "initial phase branch nearest zero; unidentifiable likelihood ties use that convention",
+      "no_pilots": true,
+      "uses_transmitted_bits_or_symbols": false,
+      "uses_true_channel_phase": false,
+      "uses_decoder_or_codec_feedback": false,
+      "amplitude_default": "known positive real block magnitude only, as in v1",
+      "failure_policy": "estimates and errors retained; no frame rejection",
+      "legacy_bps_reference": "https://doi.org/10.1109/JLT.2008.2010511",
+      "nonuniform_qam_cfr_related_work": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-37-23-5856",
+      "decision_aided_ml_related_work": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-31-13-2055",
+      "related_work_scope": "estimator-family motivation only; neither paper's exact algorithm is reproduced"
+    },
+    "side_information": "perfect frame boundaries/filelength; block magnitude/noise PSD known; true phase unknown",
+    "no_crc_no_arq": true,
+    "channel_pairing": "same seed/fading draw, not identical waveforms across different payload lengths",
+    "failure_policy": "declaredBPGheader-validation/native-decodefailure->paper-style marker1; separately measured gray-render LPIPS",
+    "fairness": "matched aggregate source bitrate; per-image rate may differ; actual FEC/padding/coded bits reported; NOT equal channel uses",
+    "lpips": "alex v0.1",
+    "bootstrap_resamples": 2000,
+    "torch": "2.11.0+cu130",
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "results": {
+    "clean_fso_sc_clean": {
+      "profile": "clean",
+      "method": "fso_sc",
+      "condition": {
+        "id": "clean",
+        "channel_kwargs": {}
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.0,
+        "channel_symbols_mean": 0.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "clean_bpg_clean": {
+      "profile": "clean",
+      "method": "bpg",
+      "condition": {
+        "id": "clean",
+        "channel_kwargs": {}
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.0,
+        "channel_symbols_mean": 0.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_187d35153f63f3d8": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_187d35153f63f3d8": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_187d35153f63f3d8": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_dbe804001cfb8471": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_dbe804001cfb8471": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_dbe804001cfb8471": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_d9dc16d457e74d56": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_d9dc16d457e74d56": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_d9dc16d457e74d56": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_7ef47e33ee6592f9": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_7ef47e33ee6592f9": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_7ef47e33ee6592f9": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_a9683ee5da014188": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_a9683ee5da014188": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_a9683ee5da014188": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_4463a00c9ad3eacd": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_4463a00c9ad3eacd": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_4463a00c9ad3eacd": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_520e87d1ca3fbf26": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_520e87d1ca3fbf26": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_520e87d1ca3fbf26": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_5d3814cf100dd163": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_5d3814cf100dd163": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_5d3814cf100dd163": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_701fa3c906542180": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_701fa3c906542180": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_701fa3c906542180": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_35f561aa79c51f74": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_35f561aa79c51f74": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_35f561aa79c51f74": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_5c1bbbbc4706ef63": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_5c1bbbbc4706ef63": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_5c1bbbbc4706ef63": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_0b62f427251592d0": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_0b62f427251592d0": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_0b62f427251592d0": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_f40418d2e2b95437": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_f40418d2e2b95437": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_f40418d2e2b95437": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_fso_sc_a2696c7b141f7b90": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "fso_sc",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.8955373096466065,
+        "ci95": [
+          0.881664529107511,
+          0.9103040074929595
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.8955373096466065,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1432910,
+          "valid_bits": 2867200,
+          "index_errors": 204788,
+          "indices": 204800,
+          "symbol_errors": 1074330,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.4997593470982143,
+        "index_error_rate": 0.99994140625,
+        "symbol_error_rate": 0.7493931361607142,
+        "mse_mean": 0.18487643282394856,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.8955373096466065,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "paper_eq3_4_background_only_bpg_a2696c7b141f7b90": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1434425,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.5002877371651786,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.5002877371651786,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "paper_eq3_4_background_only_bpg_ldpc_a2696c7b141f7b90": {
+      "profile": "paper_eq3_4_background_only",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1432651,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.49966901506696426,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 1957,
+        "pre_fec_ber": 0.49979266135986206,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_187d35153f63f3d8": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.19727633867412805,
+        "ci95": [
+          0.1889379003290087,
+          0.20587367944978177
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.19727633867412805,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 36,
+          "valid_bits": 2867200,
+          "index_errors": 36,
+          "indices": 204800,
+          "symbol_errors": 36,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 1.2555803571428571e-05,
+        "index_error_rate": 0.00017578125,
+        "symbol_error_rate": 2.5111607142857142e-05,
+        "mse_mean": 0.011345225919067161,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.19727633867412805,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_187d35153f63f3d8": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.40568664453923703,
+        "ci95": [
+          0.38628969801124186,
+          0.42530126950889824
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.40568664453923703,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 27,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 9.416852678571428e-06,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.014930485036456958,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.40568664453923703,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 9.416852678571428e-06,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_187d35153f63f3d8": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 1.0728714230965764e-05,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_dbe804001cfb8471": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.20371595568954945,
+        "ci95": [
+          0.19504520963132382,
+          0.21256570964585988
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.20371595568954945,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 8023,
+          "valid_bits": 2867200,
+          "index_errors": 7683,
+          "indices": 204800,
+          "symbol_errors": 7986,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0027982003348214286,
+        "index_error_rate": 0.0375146484375,
+        "symbol_error_rate": 0.008355304456999372,
+        "mse_mean": 0.012062416478147497,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.20371595568954945,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_dbe804001cfb8471": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.8168081571161747,
+        "ci95": [
+          0.7943022295534611,
+          0.8400433179065585
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.8168081571161747,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 8087,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.002820521763392857,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.24629279155516998,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 56,
+        "decode_failure_rate": 0.28,
+        "rendered_lpips_mean": 0.7805816142261028,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.002820521763392857,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_dbe804001cfb8471": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0027942062947112927,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_d9dc16d457e74d56": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.2243541543185711,
+        "ci95": [
+          0.21514919472951444,
+          0.23426919334102422
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.2243541543185711,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 31584,
+          "valid_bits": 2867200,
+          "index_errors": 28218,
+          "indices": 204800,
+          "symbol_errors": 31000,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.011015625,
+        "index_error_rate": 0.137783203125,
+        "symbol_error_rate": 0.043247767857142856,
+        "mse_mean": 0.013778551586146931,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.2243541543185711,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_d9dc16d457e74d56": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.9308159610629082,
+        "ci95": [
+          0.9160995316952467,
+          0.9452568518891931
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.9308159610629082,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 31966,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.011148856026785715,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.1884472219645977,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 132,
+        "decode_failure_rate": 0.66,
+        "rendered_lpips_mean": 0.8334163847565651,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.011148856026785715,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_d9dc16d457e74d56": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.3979969771951437,
+        "ci95": [
+          0.3786319087846205,
+          0.41742866175808013
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.3979969771951437,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 486,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.00016950334821428571,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.009723449642187916,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 1,
+        "decode_failure_rate": 0.005,
+        "rendered_lpips_mean": 0.3975723477452993,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 11,
+        "pre_fec_ber": 0.01100566476111395,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_7ef47e33ee6592f9": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.19726192923262714,
+        "ci95": [
+          0.1889189123394899,
+          0.20587032164027913
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.19726192923262714,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1,
+          "valid_bits": 2867200,
+          "index_errors": 1,
+          "indices": 204800,
+          "symbol_errors": 1,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 3.4877232142857143e-07,
+        "index_error_rate": 4.8828125e-06,
+        "symbol_error_rate": 6.975446428571429e-07,
+        "mse_mean": 0.011342166803660802,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.19726192923262714,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_7ef47e33ee6592f9": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_7ef47e33ee6592f9": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 2.495049821154829e-07,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_a9683ee5da014188": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1974246641434729,
+        "ci95": [
+          0.18904747457429769,
+          0.20606816740334033
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1974246641434729,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 281,
+          "valid_bits": 2867200,
+          "index_errors": 281,
+          "indices": 204800,
+          "symbol_errors": 281,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 9.800502232142857e-05,
+        "index_error_rate": 0.0013720703125,
+        "symbol_error_rate": 0.0002939945595312827,
+        "mse_mean": 0.01136658138158964,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1974246641434729,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_a9683ee5da014188": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.48038894329220055,
+        "ci95": [
+          0.4528881118195131,
+          0.5100245429873467
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.48038894329220055,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 295,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.00010288783482142857,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.06283306758210529,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 2,
+        "decode_failure_rate": 0.01,
+        "rendered_lpips_mean": 0.47956995252519846,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.00010288783482142857,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_a9683ee5da014188": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.00010329506259580992,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_4463a00c9ad3eacd": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.20016706313937901,
+        "ci95": [
+          0.1918057802412659,
+          0.2087656714809127
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.20016706313937901,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 3991,
+          "valid_bits": 2867200,
+          "index_errors": 3861,
+          "indices": 204800,
+          "symbol_errors": 3959,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.0013919503348214285,
+        "index_error_rate": 0.0188525390625,
+        "symbol_error_rate": 0.005523158482142857,
+        "mse_mean": 0.011632355621550232,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.20016706313937901,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_4463a00c9ad3eacd": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.734910177141428,
+        "ci95": [
+          0.7103149794992059,
+          0.759737082650885
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.734910177141428,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 4024,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0014034598214285713,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.2502150579466252,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 25,
+        "decode_failure_rate": 0.125,
+        "rendered_lpips_mean": 0.7168085347115993,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0014034598214285713,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_4463a00c9ad3eacd": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0013787645311701584,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_520e87d1ca3fbf26": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_520e87d1ca3fbf26": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_520e87d1ca3fbf26": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_5d3814cf100dd163": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1972614829428494,
+        "ci95": [
+          0.18891801975993439,
+          0.2058703104830347
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1972614829428494,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 204800,
+          "symbol_errors": 0,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": 0.0,
+        "symbol_error_rate": 0.0,
+        "mse_mean": 0.01134192835248541,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1972614829428494,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_5d3814cf100dd163": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39517303809523585,
+        "ci95": [
+          0.37689084136951717,
+          0.4149918175917119
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39517303809523585,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 4,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 1.3950892857142857e-06,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.010438701522361952,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39517303809523585,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 1.3950892857142857e-06,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_5d3814cf100dd163": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 1.74653487480838e-06,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_701fa3c906542180": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1973670046404004,
+        "ci95": [
+          0.1889977311808616,
+          0.20599144455324858
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1973670046404004,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 104,
+          "valid_bits": 2867200,
+          "index_errors": 104,
+          "indices": 204800,
+          "symbol_errors": 104,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 3.627232142857143e-05,
+        "index_error_rate": 0.0005078125,
+        "symbol_error_rate": 0.00014508928571428572,
+        "mse_mean": 0.011353288891259581,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1973670046404004,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_701fa3c906542180": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.4324173497408628,
+        "ci95": [
+          0.40898059402778747,
+          0.4562142915306613
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.4324173497408628,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 96,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 3.348214285714286e-05,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.037238512824114875,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 1,
+        "decode_failure_rate": 0.005,
+        "rendered_lpips_mean": 0.43180712692439555,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 3.348214285714286e-05,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_701fa3c906542180": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 3.2435647675012773e-05,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_35f561aa79c51f74": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.1973450175113976,
+        "ci95": [
+          0.18893914557062091,
+          0.20600278202770275
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.1973450175113976,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 68,
+          "valid_bits": 2867200,
+          "index_errors": 67,
+          "indices": 204800,
+          "symbol_errors": 68,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 2.3716517857142857e-05,
+        "index_error_rate": 0.0003271484375,
+        "symbol_error_rate": 4.7433035714285714e-05,
+        "mse_mean": 0.011344779361097608,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.1973450175113976,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_35f561aa79c51f74": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.408885550275445,
+        "ci95": [
+          0.38765220786444843,
+          0.42971083538979293
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.408885550275445,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 61,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 2.1275111607142858e-05,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.017754022471635836,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.408885550275445,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 2.1275111607142858e-05,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_35f561aa79c51f74": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 2.245544839039346e-05,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_5c1bbbbc4706ef63": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.2005337207019329,
+        "ci95": [
+          0.19211880137678236,
+          0.2090498077785596
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.2005337207019329,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 4803,
+          "valid_bits": 2867200,
+          "index_errors": 4446,
+          "indices": 204800,
+          "symbol_errors": 4753,
+          "valid_symbols": 955800
+        },
+        "payload_ber": 0.0016751534598214285,
+        "index_error_rate": 0.021708984375,
+        "symbol_error_rate": 0.004972797656413476,
+        "mse_mean": 0.011659725694189547,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.2005337207019329,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187652587890625,
+        "channel_symbols_mean": 4779.0,
+        "decode_failures": null
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_5c1bbbbc4706ef63": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.6272023229300976,
+        "ci95": [
+          0.5962056584898383,
+          0.6588705433737486
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.6272023229300976,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 4877,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0017009626116071428,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12973605055507506,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 24,
+        "decode_failure_rate": 0.12,
+        "rendered_lpips_mean": 0.6110549710690976,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.2187659454345703,
+        "channel_symbols_mean": 4779.015,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0017009626116071428,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_5c1bbbbc4706ef63": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39185226410627366,
+        "ci95": [
+          0.3739413520721719,
+          0.4099223633296788
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39185226410627366,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 0,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.007087606175628025,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 0,
+        "decode_failure_rate": 0.0,
+        "rendered_lpips_mean": 0.39185226410627366,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.3057957458496094,
+        "channel_symbols_mean": 6680.21,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.0017126021972406744,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_0b62f427251592d0": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.21109455043449998,
+        "ci95": [
+          0.2017809555493295,
+          0.220584017470479
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.21109455043449998,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 15821,
+          "valid_bits": 2867200,
+          "index_errors": 13727,
+          "indices": 204800,
+          "symbol_errors": 15424,
+          "valid_symbols": 716800
+        },
+        "payload_ber": 0.005517926897321428,
+        "index_error_rate": 0.0670263671875,
+        "symbol_error_rate": 0.021517857142857144,
+        "mse_mean": 0.012511352999281371,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.21109455043449998,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_0b62f427251592d0": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.8093270649760962,
+        "ci95": [
+          0.7823872716762126,
+          0.8343877867013215
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.8093270649760962,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 15852,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.005528738839285714,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.20963048493227687,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 68,
+        "decode_failure_rate": 0.34,
+        "rendered_lpips_mean": 0.7611732726544141,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 3584.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.005528738839285714,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_0b62f427251592d0": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.39477980554103853,
+        "ci95": [
+          0.3760591029683128,
+          0.41400459688622504
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.39477980554103853,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1328,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.0004631696428571429,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.008125684694678057,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 1,
+        "decode_failure_rate": 0.005,
+        "rendered_lpips_mean": 0.39426482886075975,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 5009.92,
+        "ldpc_nonconverged_blocks": 9,
+        "pre_fec_ber": 0.00540477692258559,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_f40418d2e2b95437": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.8956869375705719,
+        "ci95": [
+          0.8807604796662927,
+          0.910319416180253
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.8956869375705719,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1432952,
+          "valid_bits": 2867200,
+          "index_errors": 204193,
+          "indices": 204800,
+          "symbol_errors": 1075529,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.4997739955357143,
+        "index_error_rate": 0.9970361328125,
+        "symbol_error_rate": 0.7502294921875,
+        "mse_mean": 0.1822791339084506,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.8956869375705719,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_f40418d2e2b95437": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1413816,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.4930998883928571,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.4930998883928571,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_f40418d2e2b95437": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1413739,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.49307303292410715,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 1957,
+        "pre_fec_ber": 0.4948786607370976,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_fso_sc_a2696c7b141f7b90": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "fso_sc",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 0.8963405549526214,
+        "ci95": [
+          0.8810971746668219,
+          0.9119024227634072
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 0.8963405549526214,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1433971,
+          "valid_bits": 2867200,
+          "index_errors": 204787,
+          "indices": 204800,
+          "symbol_errors": 1075345,
+          "valid_symbols": 1433600
+        },
+        "payload_ber": 0.50012939453125,
+        "index_error_rate": 0.9999365234375,
+        "symbol_error_rate": 0.7501011439732143,
+        "mse_mean": 0.18306593714281916,
+        "failure_policy": "all finite frames retained, including bad DSP recovery; nonfinite raises",
+        "decode_failure_rate": null,
+        "rendered_lpips_mean": 0.8963405549526214,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "decode_failures": null
+      },
+      "reused_development_result": true
+    },
+    "coherent_receiver_extension_v6_bpg_a2696c7b141f7b90": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1434287,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.5002396065848215,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.21875,
+        "channel_symbols_mean": 7168.0,
+        "ldpc_nonconverged_blocks": 0,
+        "pre_fec_ber": 0.5002396065848215,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    },
+    "coherent_receiver_extension_v6_bpg_ldpc_a2696c7b141f7b90": {
+      "profile": "coherent_receiver_extension_v6",
+      "method": "bpg_ldpc",
+      "condition": {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      "summary": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "independent_images": 200,
+        "bootstrap_samples": 2000,
+        "ci_unit": "image; channel repeats averaged within each image",
+        "lpips_mean": 1.0,
+        "unique_images": 200,
+        "image_channel_realizations": 200,
+        "counts": {
+          "bit_errors": 1434056,
+          "valid_bits": 2867200,
+          "index_errors": 0,
+          "indices": 0,
+          "symbol_errors": 0,
+          "valid_symbols": 0
+        },
+        "payload_ber": 0.5001590401785714,
+        "index_error_rate": null,
+        "symbol_error_rate": null,
+        "mse_mean": 0.12096557591110468,
+        "failure_policy": "Retain all images; declared BPG header-validation/native-decode failure -> paper marker1, companion measured gray LPIPS",
+        "decode_failures": 200,
+        "decode_failure_rate": 1.0,
+        "rendered_lpips_mean": 0.8662324899435043,
+        "source_bpp_mean": 0.21875,
+        "transmitted_bpp_mean": 0.30578125,
+        "channel_symbols_mean": 10019.84,
+        "ldpc_nonconverged_blocks": 1957,
+        "pre_fec_ber": 0.5000419168369954,
+        "metric_scope": "Source file bits only for post-FEC BER; coded bits including LDPC padding for pre-FEC BER"
+      },
+      "reused_development_result": false
+    }
+  },
+  "development_reuse_count": 21,
+  "elapsed_this_cell_seconds": 636.942239019,
+  "interpretation": "conditional partial reproduction; no automatic channel/LDPC selection or3dB gain claim",
+  "limitations": [
+    "Development images already informed implementation; not final holdout.",
+    "Both noise profiles retained; neither establishes the undisclosed VPI receiver.",
+    "Matched mean source rate is not equal channel-use budget.",
+    "BPG failure marker 1 is not measured gray-render LPIPS or a metric bound.",
+    "No independent numerical paper reproduction or 3 dB gain claim."
+  ]
+}

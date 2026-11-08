@@ -1,0 +1,407 @@
+{
+  "version": "fso_sc_experiment_lock_v1",
+  "reference_model_sha256": "89024515a0dddedf9bf83f0160dea358c4d9d481e7dab7a84be0c43d5e656366",
+  "development_run_id": "e23292642de7f418",
+  "development_summary_sha256": "e24e6afca12576b8a87438b9be1e4572e56151b9729ead361024b58d83752933",
+  "holdout_manifest_sha256": "5770c2a556cc6f27b5b47d55576c14f7f5934912a3e117d08260964bcf3060d9",
+  "settings": {
+    "conditions": [
+      {
+        "id": "187d35153f63f3d8",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "dbe804001cfb8471",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "d9dc16d457e74d56",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 30.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "7ef47e33ee6592f9",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "a9683ee5da014188",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "4463a00c9ad3eacd",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 33.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "520e87d1ca3fbf26",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "5d3814cf100dd163",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "701fa3c906542180",
+        "group": "power_at_zenith30",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 30.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "35f561aa79c51f74",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "5c1bbbbc4706ef63",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "8QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "0b62f427251592d0",
+        "group": "coverage_at_36dBm",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "16QAM",
+          "zenith_angle_deg": 60.0,
+          "pointing_error_urad": 20.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "clear",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "f40418d2e2b95437",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "snow",
+          "scattered_power_ratio": 0.95
+        }
+      },
+      {
+        "id": "a2696c7b141f7b90",
+        "group": "adverse_weather",
+        "channel_kwargs": {
+          "launch_power_dbm": 36.0,
+          "modulation": "QPSK",
+          "zenith_angle_deg": 0.0,
+          "pointing_error_urad": 15.0,
+          "background_light_radiance_w_m2_sr_um": 0.0001,
+          "weather": "fog",
+          "scattered_power_ratio": 0.95
+        }
+      }
+    ],
+    "profiles": {
+      "paper_eq3_4_background_only": {
+        "profile": "paper_eq3_4_background_only",
+        "noise_flags": {
+          "include_background_noise": true,
+          "include_ase_noise": false,
+          "include_shot_noise": false
+        },
+        "basis": "Chen et al. Eq. (3) defines n(t) as background-light noise; Eq. (4) gives its collected optical power. No receiver shot or ASE term is printed in those equations.",
+        "diagnostic_only": false,
+        "full_vpi_reproduction": false,
+        "physical_superiority_claim": false,
+        "curve_fitted": false,
+        "limitations": [
+          "Eq. (4) optical background power to complex matched-filter variance is an implementation approximation, not a disclosed receiver transfer.",
+          "FOV unit, optical filter width, Malaga phase/beta, fading coherence and proprietary coherent receiver/DSP details remain assumptions.",
+          "Background-only omission of quantum shot noise is an equation-level idealization, not a physically complete coherent receiver.",
+          "ASE bandwidth/post-EDFA launch reference and shot bandwidth/polarization are inferred; neither establishes the undisclosed VPI configuration."
+        ],
+        "provenance": {
+          "paper": "https://ieeexplore.ieee.org/document/10969992/",
+          "published_channel": "Chen et al., Sec. II-B, Eqs. (3)-(4); Table I",
+          "v6_shot_reference": "https://doi.org/10.1103/PhysRevA.77.032116",
+          "selection_rule": "Choose explicitly before examining evaluation outcomes."
+        }
+      },
+      "coherent_receiver_extension_v6": {
+        "profile": "coherent_receiver_extension_v6",
+        "noise_flags": {
+          "include_background_noise": true,
+          "include_ase_noise": true,
+          "include_shot_noise": true
+        },
+        "basis": "Unchanged v6 interpretation: background plus propagated transmitter EDFA ASE and input-referred single-polarization heterodyne shot noise.",
+        "diagnostic_only": false,
+        "full_vpi_reproduction": false,
+        "physical_superiority_claim": false,
+        "curve_fitted": false,
+        "limitations": [
+          "Eq. (4) optical background power to complex matched-filter variance is an implementation approximation, not a disclosed receiver transfer.",
+          "FOV unit, optical filter width, Malaga phase/beta, fading coherence and proprietary coherent receiver/DSP details remain assumptions.",
+          "Background-only omission of quantum shot noise is an equation-level idealization, not a physically complete coherent receiver.",
+          "ASE bandwidth/post-EDFA launch reference and shot bandwidth/polarization are inferred; neither establishes the undisclosed VPI configuration."
+        ],
+        "provenance": {
+          "paper": "https://ieeexplore.ieee.org/document/10969992/",
+          "published_channel": "Chen et al., Sec. II-B, Eqs. (3)-(4); Table I",
+          "v6_shot_reference": "https://doi.org/10.1103/PhysRevA.77.032116",
+          "selection_rule": "Choose explicitly before examining evaluation outcomes."
+        }
+      }
+    },
+    "profile_configs": {
+      "paper_eq3_4_background_only": {
+        "wavelength_m": 1.55e-06,
+        "satellite_altitude_m": 620000.0,
+        "receiver_altitude_m": 0.0,
+        "earth_radius_m": 6371000.0,
+        "earth_gravitational_parameter": 398600441800000.0,
+        "light_speed_m_s": 299792458.0,
+        "planck_constant_j_s": 6.62607015e-34,
+        "electron_charge_c": 1.602176634e-19,
+        "beam_radius_m": 0.05,
+        "receiver_aperture_m": 0.318,
+        "rms_wind_speed_m_s": 21.0,
+        "ground_cn2_m_neg_two_thirds": 1.7e-14,
+        "atmospheric_range_m": 20000.0,
+        "fog_range_m": 8000.0,
+        "field_of_view_rad": 0.1,
+        "optical_filter_bandwidth_um": 0.001,
+        "symbol_rate_baud": 28000000000.0,
+        "amplifier_gain_db": 30.0,
+        "amplifier_noise_figure_db": 4.0,
+        "lo_linewidth_hz": 1000.0,
+        "photodiode_responsivity_a_w": 0.85,
+        "doppler_residual_ratio": 0.1,
+        "malaga_omega": 0.5,
+        "malaga_b0": 0.25,
+        "malaga_phase_difference_rad": 1.5707963267948966,
+        "malaga_beta": null,
+        "max_derived_beta": 1000,
+        "beta_fit_policy": "nearest_warn",
+        "beta_fit_relative_tolerance": 0.001,
+        "integration_points": 4097,
+        "integration_grid_power": 2.0,
+        "num_receivers": 1,
+        "combining": "MRC",
+        "include_turbulence": true,
+        "include_background_noise": true,
+        "include_ase_noise": false,
+        "include_shot_noise": false,
+        "heterodyne_shot_noise_convention": 1.0,
+        "include_doppler": true,
+        "include_phase_noise": true,
+        "launch_power_dbm": 33.0,
+        "zenith_angle_deg": 30.0,
+        "pointing_error_urad": 20.0,
+        "scattered_power_ratio": 0.95,
+        "background_light_radiance_w_m2_sr_um": 0.0001,
+        "weather": "clear"
+      },
+      "coherent_receiver_extension_v6": {
+        "wavelength_m": 1.55e-06,
+        "satellite_altitude_m": 620000.0,
+        "receiver_altitude_m": 0.0,
+        "earth_radius_m": 6371000.0,
+        "earth_gravitational_parameter": 398600441800000.0,
+        "light_speed_m_s": 299792458.0,
+        "planck_constant_j_s": 6.62607015e-34,
+        "electron_charge_c": 1.602176634e-19,
+        "beam_radius_m": 0.05,
+        "receiver_aperture_m": 0.318,
+        "rms_wind_speed_m_s": 21.0,
+        "ground_cn2_m_neg_two_thirds": 1.7e-14,
+        "atmospheric_range_m": 20000.0,
+        "fog_range_m": 8000.0,
+        "field_of_view_rad": 0.1,
+        "optical_filter_bandwidth_um": 0.001,
+        "symbol_rate_baud": 28000000000.0,
+        "amplifier_gain_db": 30.0,
+        "amplifier_noise_figure_db": 4.0,
+        "lo_linewidth_hz": 1000.0,
+        "photodiode_responsivity_a_w": 0.85,
+        "doppler_residual_ratio": 0.1,
+        "malaga_omega": 0.5,
+        "malaga_b0": 0.25,
+        "malaga_phase_difference_rad": 1.5707963267948966,
+        "malaga_beta": null,
+        "max_derived_beta": 1000,
+        "beta_fit_policy": "nearest_warn",
+        "beta_fit_relative_tolerance": 0.001,
+        "integration_points": 4097,
+        "integration_grid_power": 2.0,
+        "num_receivers": 1,
+        "combining": "MRC",
+        "include_turbulence": true,
+        "include_background_noise": true,
+        "include_ase_noise": true,
+        "include_shot_noise": true,
+        "heterodyne_shot_noise_convention": 1.0,
+        "include_doppler": true,
+        "include_phase_noise": true,
+        "launch_power_dbm": 33.0,
+        "zenith_angle_deg": 30.0,
+        "pointing_error_urad": 20.0,
+        "scattered_power_ratio": 0.95,
+        "background_light_radiance_w_m2_sr_um": 0.0001,
+        "weather": "clear"
+      }
+    },
+    "dsp": {
+      "amplitude_mode": "known_block_magnitude",
+      "cfo_fft_oversampling": 4,
+      "cfo_newton_steps": 4,
+      "bps_test_phases": 64,
+      "bps_window_symbols": 65,
+      "cfo_enabled": true,
+      "cpr_enabled": true
+    },
+    "rect8_repair": {
+      "receiver_version": "rect8_constellation_ml_cfr_dd_ml_cpr_v2",
+      "affected_modulation": "8QAM",
+      "scope": "rectangular 8QAM only; QPSK and 16QAM use unchanged v1",
+      "coarse_cfr": "v1 fourth-power FFT and Newton periodogram refinement",
+      "fine_cfr": "received-sample constellation-distance likelihood; frequency and constant phase jointly fitted",
+      "cpr": "two windowed decision-directed ML phase updates, arg(sum(y*conj(decision)))",
+      "acquisition_search": "one unoversampled fourth-harmonic CFO bin either side of the coarse estimate",
+      "acquisition_samples": "at most 2048 uniformly spaced received samples; no data-dependent sampling",
+      "fine_frequency_trials": 17,
+      "fine_newton_steps": 5,
+      "phase_trials_and_window": "unchanged SignalDSPConfig phase count and window length",
+      "phase_ambiguity": "initial phase branch nearest zero; unidentifiable likelihood ties use that convention",
+      "no_pilots": true,
+      "uses_transmitted_bits_or_symbols": false,
+      "uses_true_channel_phase": false,
+      "uses_decoder_or_codec_feedback": false,
+      "amplitude_default": "known positive real block magnitude only, as in v1",
+      "failure_policy": "estimates and errors retained; no frame rejection",
+      "legacy_bps_reference": "https://doi.org/10.1109/JLT.2008.2010511",
+      "nonuniform_qam_cfr_related_work": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-37-23-5856",
+      "decision_aided_ml_related_work": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-31-13-2055",
+      "related_work_scope": "estimator-family motivation only; neither paper's exact algorithm is reproduced"
+    },
+    "ldpc": {
+      "name": "systematic_ra_2048_1536_seeded_v1",
+      "n": 2048,
+      "k": 1536,
+      "m": 512,
+      "rate": 0.75,
+      "seed": 20261028,
+      "matrix_sha256": "12b54decfac6134e232ac460ebed1d2c5169aba3488a9ebfa638c2e806b40037",
+      "matrix_hash_encoding": "row-major (check,variable), uint16 little endian pairs",
+      "edge_count": 5631,
+      "information_column_weight": 3,
+      "check_degree_min": 10,
+      "check_degree_max": 11,
+      "four_cycles": 0,
+      "decoder": "flooding normalized min-sum with syndrome early stopping",
+      "normalization": 0.8,
+      "max_iterations": 50,
+      "llr_clip": 30.0,
+      "llr_convention": "log(P0/P1); positive means bit zero",
+      "paper_dimensions_matched": true,
+      "paper_matrix_reproduced": false,
+      "matrix_assumption": "H=[seeded balanced column-weight-3 A | lower-bidiagonal D]",
+      "construction_reference": "H. Jin thesis, Chapter 7, https://thesis.caltech.edu/3191/1/HJinthesis.pdf",
+      "convergence_is_crc": false
+    },
+    "lpips": "alex v0.1",
+    "side_information": "perfect frame boundaries/filelength; block magnitude/noise PSD known; true phase unknown",
+    "no_crc_no_arq": true,
+    "channel_pairing": "same seed/fading draw, not identical waveforms across different payload lengths",
+    "bootstrap_resamples": 2000,
+    "source_bitrate_target_mean_bpp": 0.21875
+  }
+}

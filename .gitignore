@@ -1,0 +1,45 @@
+# Python / notebook cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local credentials and account configuration
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+service-account*.json
+.gcloud/
+.aws/
+
+# User data, trained weights, downloaded codecs, generated run artifacts
+data/
+FSO_data/
+checkpoints/
+runs/
+output/
+tmp/
+downloads/
+libbpg*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.zip
+*.tar.gz
+*.bpg
+*.dll
+*.exe
+*.so
+*.dylib
+*.partial
+libbpg_build.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
