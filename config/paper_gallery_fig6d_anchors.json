@@ -1,0 +1,20 @@
+{
+  "figure": "6(d)",
+  "source": "Chen et al., IEEE TCOM 2025, DOI 10.1109/TCOMM.2025.3562356",
+  "paper_sha256": "bd5dd13f193b0076c0181ec4565a8dda1b24ac3494dc5b06c2062ef78440be59",
+  "reading": "Three visible upper-ceiling raster markers only. The 1.0 values are approximate and not verified decode-failure flags. No other points are estimated or interpolated.",
+  "method": "bpg_ldpc",
+  "channel": {
+    "modulation": "QPSK",
+    "weather": "clear",
+    "zenith_angle_deg": 0,
+    "pointing_error_urad": 19,
+    "background_light_radiance_w_m2_sr_um": 1.0
+  },
+  "points": [
+    {"power_dbm": 28, "lpips": 1.0},
+    {"power_dbm": 29, "lpips": 1.0},
+    {"power_dbm": 30, "lpips": 1.0}
+  ],
+  "omitted_points": 51
+}

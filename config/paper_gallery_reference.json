@@ -1,0 +1,745 @@
+{
+  "metadata": {
+    "source": "Chen et al., IEEE Transactions on Communications, 73(10), 2025",
+    "doi": "https://doi.org/10.1109/TCOMM.2025.3562356",
+    "pdf_sha256": "bd5dd13f193b0076c0181ec4565a8dda1b24ac3494dc5b06c2062ef78440be59",
+    "method": "Checked PDF Form vector marker shape/color against legends; map marker centers to printed axes, round to 3 decimals.",
+    "scope": "Figure 4(a-c), printed page 9174; Figure 7, p. 9177; Figure 8(a-d), p. 9178.",
+    "limitations": [
+      "Approximate plotted LPIPS, not raw author measurements or uncertainty estimates.",
+      "Matching evaluation images and LPIPS backbone could not be verified.",
+      "Paper convention: LPIPS 1 may be a failed BPG reconstruction.",
+      "Fig. 8(d) follows the plotted legend and body (with LDPC); its caption contradicts them."
+    ]
+  },
+  "figure4": {
+    "a": {
+      "conditions": {
+        "power_dbm": 30,
+        "pointing_urad": 20
+      },
+      "series": {
+        "fso_sc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.094},
+          {"zenith_deg": 10, "lpips": 0.09},
+          {"zenith_deg": 20, "lpips": 0.101},
+          {"zenith_deg": 30, "lpips": 0.121},
+          {"zenith_deg": 40, "lpips": 0.175},
+          {"zenith_deg": 50, "lpips": 0.268},
+          {"zenith_deg": 60, "lpips": 0.367},
+          {"zenith_deg": 70, "lpips": 0.535},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "fso_sc_8qam": [
+          {"zenith_deg": 0, "lpips": 0.315},
+          {"zenith_deg": 10, "lpips": 0.383},
+          {"zenith_deg": 20, "lpips": 0.43},
+          {"zenith_deg": 30, "lpips": 0.511},
+          {"zenith_deg": 40, "lpips": 0.612},
+          {"zenith_deg": 50, "lpips": 0.647},
+          {"zenith_deg": 60, "lpips": 0.7},
+          {"zenith_deg": 70, "lpips": 0.7},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "fso_sc_16qam": [
+          {"zenith_deg": 0, "lpips": 0.47},
+          {"zenith_deg": 10, "lpips": 0.49},
+          {"zenith_deg": 20, "lpips": 0.57},
+          {"zenith_deg": 30, "lpips": 0.6},
+          {"zenith_deg": 40, "lpips": 0.63},
+          {"zenith_deg": 50, "lpips": 0.65},
+          {"zenith_deg": 60, "lpips": 0.7},
+          {"zenith_deg": 70, "lpips": 0.7},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "bpg_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.798},
+          {"zenith_deg": 10, "lpips": 0.826},
+          {"zenith_deg": 20, "lpips": 0.846},
+          {"zenith_deg": 30, "lpips": 0.905},
+          {"zenith_deg": 40, "lpips": 0.957},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_8qam": [
+          {"zenith_deg": 0, "lpips": 1.0},
+          {"zenith_deg": 10, "lpips": 1.0},
+          {"zenith_deg": 20, "lpips": 1.0},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_16qam": [
+          {"zenith_deg": 0, "lpips": 1.0},
+          {"zenith_deg": 10, "lpips": 1.0},
+          {"zenith_deg": 20, "lpips": 1.0},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.175},
+          {"zenith_deg": 40, "lpips": 0.737},
+          {"zenith_deg": 50, "lpips": 0.953},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_8qam": [
+          {"zenith_deg": 0, "lpips": 1.0},
+          {"zenith_deg": 10, "lpips": 1.0},
+          {"zenith_deg": 20, "lpips": 1.0},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_16qam": [
+          {"zenith_deg": 0, "lpips": 1.0},
+          {"zenith_deg": 10, "lpips": 1.0},
+          {"zenith_deg": 20, "lpips": 1.0},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ]
+      }
+    },
+    "b": {
+      "conditions": {
+        "power_dbm": 33,
+        "pointing_urad": 20
+      },
+      "series": {
+        "fso_sc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.082},
+          {"zenith_deg": 10, "lpips": 0.082},
+          {"zenith_deg": 20, "lpips": 0.083},
+          {"zenith_deg": 30, "lpips": 0.084},
+          {"zenith_deg": 40, "lpips": 0.085},
+          {"zenith_deg": 50, "lpips": 0.103},
+          {"zenith_deg": 60, "lpips": 0.17},
+          {"zenith_deg": 70, "lpips": 0.39},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "fso_sc_8qam": [
+          {"zenith_deg": 0, "lpips": 0.1},
+          {"zenith_deg": 10, "lpips": 0.11},
+          {"zenith_deg": 20, "lpips": 0.113},
+          {"zenith_deg": 30, "lpips": 0.171},
+          {"zenith_deg": 40, "lpips": 0.232},
+          {"zenith_deg": 50, "lpips": 0.407},
+          {"zenith_deg": 60, "lpips": 0.52},
+          {"zenith_deg": 70, "lpips": 0.61},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "fso_sc_16qam": [
+          {"zenith_deg": 0, "lpips": 0.29},
+          {"zenith_deg": 10, "lpips": 0.33},
+          {"zenith_deg": 20, "lpips": 0.36},
+          {"zenith_deg": 30, "lpips": 0.45},
+          {"zenith_deg": 40, "lpips": 0.51},
+          {"zenith_deg": 50, "lpips": 0.6},
+          {"zenith_deg": 60, "lpips": 0.65},
+          {"zenith_deg": 70, "lpips": 0.7},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "bpg_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.719},
+          {"zenith_deg": 10, "lpips": 0.787},
+          {"zenith_deg": 20, "lpips": 0.819},
+          {"zenith_deg": 30, "lpips": 0.834},
+          {"zenith_deg": 40, "lpips": 0.94},
+          {"zenith_deg": 50, "lpips": 0.945},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_8qam": [
+          {"zenith_deg": 0, "lpips": 0.731},
+          {"zenith_deg": 10, "lpips": 0.862},
+          {"zenith_deg": 20, "lpips": 0.932},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_16qam": [
+          {"zenith_deg": 0, "lpips": 1.0},
+          {"zenith_deg": 10, "lpips": 1.0},
+          {"zenith_deg": 20, "lpips": 1.0},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.175},
+          {"zenith_deg": 40, "lpips": 0.175},
+          {"zenith_deg": 50, "lpips": 0.175},
+          {"zenith_deg": 60, "lpips": 0.798},
+          {"zenith_deg": 70, "lpips": 0.968},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_8qam": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.791},
+          {"zenith_deg": 40, "lpips": 0.903},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_16qam": [
+          {"zenith_deg": 0, "lpips": 0.718},
+          {"zenith_deg": 10, "lpips": 0.78},
+          {"zenith_deg": 20, "lpips": 0.801},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ]
+      }
+    },
+    "c": {
+      "conditions": {
+        "power_dbm": 36,
+        "pointing_urad": 20
+      },
+      "series": {
+        "fso_sc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.081},
+          {"zenith_deg": 10, "lpips": 0.081},
+          {"zenith_deg": 20, "lpips": 0.081},
+          {"zenith_deg": 30, "lpips": 0.081},
+          {"zenith_deg": 40, "lpips": 0.081},
+          {"zenith_deg": 50, "lpips": 0.082},
+          {"zenith_deg": 60, "lpips": 0.086},
+          {"zenith_deg": 70, "lpips": 0.128},
+          {"zenith_deg": 80, "lpips": 0.376}
+        ],
+        "fso_sc_8qam": [
+          {"zenith_deg": 0, "lpips": 0.081},
+          {"zenith_deg": 10, "lpips": 0.081},
+          {"zenith_deg": 20, "lpips": 0.081},
+          {"zenith_deg": 30, "lpips": 0.082},
+          {"zenith_deg": 40, "lpips": 0.083},
+          {"zenith_deg": 50, "lpips": 0.115},
+          {"zenith_deg": 60, "lpips": 0.253},
+          {"zenith_deg": 70, "lpips": 0.43},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "fso_sc_16qam": [
+          {"zenith_deg": 0, "lpips": 0.085},
+          {"zenith_deg": 10, "lpips": 0.128},
+          {"zenith_deg": 20, "lpips": 0.145},
+          {"zenith_deg": 30, "lpips": 0.165},
+          {"zenith_deg": 40, "lpips": 0.234},
+          {"zenith_deg": 50, "lpips": 0.333},
+          {"zenith_deg": 60, "lpips": 0.428},
+          {"zenith_deg": 70, "lpips": 0.65},
+          {"zenith_deg": 80, "lpips": 0.7}
+        ],
+        "bpg_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.175},
+          {"zenith_deg": 40, "lpips": 0.175},
+          {"zenith_deg": 50, "lpips": 0.849},
+          {"zenith_deg": 60, "lpips": 0.972},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_8qam": [
+          {"zenith_deg": 0, "lpips": 0.686},
+          {"zenith_deg": 10, "lpips": 0.762},
+          {"zenith_deg": 20, "lpips": 0.899},
+          {"zenith_deg": 30, "lpips": 0.926},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_16qam": [
+          {"zenith_deg": 0, "lpips": 0.77},
+          {"zenith_deg": 10, "lpips": 0.817},
+          {"zenith_deg": 20, "lpips": 0.897},
+          {"zenith_deg": 30, "lpips": 1.0},
+          {"zenith_deg": 40, "lpips": 1.0},
+          {"zenith_deg": 50, "lpips": 1.0},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_qpsk": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.175},
+          {"zenith_deg": 40, "lpips": 0.175},
+          {"zenith_deg": 50, "lpips": 0.175},
+          {"zenith_deg": 60, "lpips": 0.175},
+          {"zenith_deg": 70, "lpips": 0.175},
+          {"zenith_deg": 80, "lpips": 0.876}
+        ],
+        "bpg_ldpc_8qam": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.175},
+          {"zenith_deg": 40, "lpips": 0.175},
+          {"zenith_deg": 50, "lpips": 0.175},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ],
+        "bpg_ldpc_16qam": [
+          {"zenith_deg": 0, "lpips": 0.175},
+          {"zenith_deg": 10, "lpips": 0.175},
+          {"zenith_deg": 20, "lpips": 0.175},
+          {"zenith_deg": 30, "lpips": 0.769},
+          {"zenith_deg": 40, "lpips": 0.894},
+          {"zenith_deg": 50, "lpips": 0.965},
+          {"zenith_deg": 60, "lpips": 1.0},
+          {"zenith_deg": 70, "lpips": 1.0},
+          {"zenith_deg": 80, "lpips": 1.0}
+        ]
+      }
+    }
+  },
+  "figure8": {
+    "a": {
+      "conditions": {
+        "modulation": "16QAM",
+        "zenith_deg": 0,
+        "pointing_urad": 19,
+        "scattered_power_ratio": 0.95,
+        "bpg_ldpc": false
+      },
+      "series": {
+        "bpg_2rx_egc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.985},
+          {"power_dbm": 30, "lpips": 0.954},
+          {"power_dbm": 31, "lpips": 0.947},
+          {"power_dbm": 32, "lpips": 0.888},
+          {"power_dbm": 33, "lpips": 0.816},
+          {"power_dbm": 34, "lpips": 0.752},
+          {"power_dbm": 35, "lpips": 0.72},
+          {"power_dbm": 36, "lpips": 0.673}
+        ],
+        "bpg_4rx_egc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.943},
+          {"power_dbm": 30, "lpips": 0.838},
+          {"power_dbm": 31, "lpips": 0.782},
+          {"power_dbm": 32, "lpips": 0.762},
+          {"power_dbm": 33, "lpips": 0.675},
+          {"power_dbm": 34, "lpips": 0.615},
+          {"power_dbm": 35, "lpips": 0.597},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_2rx_mrc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.963},
+          {"power_dbm": 30, "lpips": 0.913},
+          {"power_dbm": 31, "lpips": 0.91},
+          {"power_dbm": 32, "lpips": 0.881},
+          {"power_dbm": 33, "lpips": 0.775},
+          {"power_dbm": 34, "lpips": 0.665},
+          {"power_dbm": 35, "lpips": 0.635},
+          {"power_dbm": 36, "lpips": 0.335}
+        ],
+        "bpg_4rx_mrc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.916},
+          {"power_dbm": 30, "lpips": 0.842},
+          {"power_dbm": 31, "lpips": 0.791},
+          {"power_dbm": 32, "lpips": 0.767},
+          {"power_dbm": 33, "lpips": 0.586},
+          {"power_dbm": 34, "lpips": 0.335},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "fso_sc_1rx": [
+          {"power_dbm": 28, "lpips": 0.362},
+          {"power_dbm": 29, "lpips": 0.263},
+          {"power_dbm": 30, "lpips": 0.197},
+          {"power_dbm": 31, "lpips": 0.134},
+          {"power_dbm": 32, "lpips": 0.125},
+          {"power_dbm": 33, "lpips": 0.103},
+          {"power_dbm": 34, "lpips": 0.095},
+          {"power_dbm": 35, "lpips": 0.094},
+          {"power_dbm": 36, "lpips": 0.089}
+        ],
+        "bpg_1rx": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 1.0},
+          {"power_dbm": 30, "lpips": 1.0},
+          {"power_dbm": 31, "lpips": 0.973},
+          {"power_dbm": 32, "lpips": 0.931},
+          {"power_dbm": 33, "lpips": 0.911},
+          {"power_dbm": 34, "lpips": 0.885},
+          {"power_dbm": 35, "lpips": 0.814},
+          {"power_dbm": 36, "lpips": 0.723}
+        ]
+      }
+    },
+    "b": {
+      "conditions": {
+        "modulation": "16QAM",
+        "zenith_deg": 0,
+        "pointing_urad": 19,
+        "scattered_power_ratio": 0.95,
+        "bpg_ldpc": true
+      },
+      "series": {
+        "bpg_ldpc_2rx_egc": [
+          {"power_dbm": 28, "lpips": 0.765},
+          {"power_dbm": 29, "lpips": 0.616},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_egc": [
+          {"power_dbm": 28, "lpips": 0.713},
+          {"power_dbm": 29, "lpips": 0.175},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_2rx_mrc": [
+          {"power_dbm": 28, "lpips": 0.673},
+          {"power_dbm": 29, "lpips": 0.175},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_mrc": [
+          {"power_dbm": 28, "lpips": 0.335},
+          {"power_dbm": 29, "lpips": 0.175},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "fso_sc_1rx": [
+          {"power_dbm": 28, "lpips": 0.362},
+          {"power_dbm": 29, "lpips": 0.263},
+          {"power_dbm": 30, "lpips": 0.197},
+          {"power_dbm": 31, "lpips": 0.134},
+          {"power_dbm": 32, "lpips": 0.125},
+          {"power_dbm": 33, "lpips": 0.103},
+          {"power_dbm": 34, "lpips": 0.095},
+          {"power_dbm": 35, "lpips": 0.094},
+          {"power_dbm": 36, "lpips": 0.089}
+        ],
+        "bpg_ldpc_1rx": [
+          {"power_dbm": 28, "lpips": 0.772},
+          {"power_dbm": 29, "lpips": 0.713},
+          {"power_dbm": 30, "lpips": 0.335},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ]
+      }
+    },
+    "c": {
+      "conditions": {
+        "modulation": "16QAM",
+        "zenith_deg": 0,
+        "pointing_urad": 19,
+        "scattered_power_ratio": 0.75,
+        "bpg_ldpc": true
+      },
+      "series": {
+        "bpg_ldpc_2rx_egc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.86},
+          {"power_dbm": 30, "lpips": 0.594},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_egc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.752},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_2rx_mrc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.813},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_mrc": [
+          {"power_dbm": 28, "lpips": 0.9},
+          {"power_dbm": 29, "lpips": 0.335},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "fso_sc_1rx": [
+          {"power_dbm": 28, "lpips": 0.438},
+          {"power_dbm": 29, "lpips": 0.351},
+          {"power_dbm": 30, "lpips": 0.23},
+          {"power_dbm": 31, "lpips": 0.182},
+          {"power_dbm": 32, "lpips": 0.135},
+          {"power_dbm": 33, "lpips": 0.112},
+          {"power_dbm": 34, "lpips": 0.098},
+          {"power_dbm": 35, "lpips": 0.094},
+          {"power_dbm": 36, "lpips": 0.087}
+        ],
+        "bpg_ldpc_1rx": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 1.0},
+          {"power_dbm": 30, "lpips": 0.844},
+          {"power_dbm": 31, "lpips": 0.764},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ]
+      }
+    },
+    "d": {
+      "conditions": {
+        "modulation": "16QAM",
+        "zenith_deg": 0,
+        "pointing_urad": 19,
+        "scattered_power_ratio": 0.596,
+        "bpg_ldpc": true
+      },
+      "series": {
+        "bpg_ldpc_2rx_egc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.966},
+          {"power_dbm": 30, "lpips": 0.829},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_egc": [
+          {"power_dbm": 28, "lpips": 0.953},
+          {"power_dbm": 29, "lpips": 0.897},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_2rx_mrc": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 0.922},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "bpg_ldpc_4rx_mrc": [
+          {"power_dbm": 28, "lpips": 0.925},
+          {"power_dbm": 29, "lpips": 0.787},
+          {"power_dbm": 30, "lpips": 0.175},
+          {"power_dbm": 31, "lpips": 0.175},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ],
+        "fso_sc_1rx": [
+          {"power_dbm": 28, "lpips": 0.54},
+          {"power_dbm": 29, "lpips": 0.463},
+          {"power_dbm": 30, "lpips": 0.352},
+          {"power_dbm": 31, "lpips": 0.229},
+          {"power_dbm": 32, "lpips": 0.176},
+          {"power_dbm": 33, "lpips": 0.136},
+          {"power_dbm": 34, "lpips": 0.113},
+          {"power_dbm": 35, "lpips": 0.099},
+          {"power_dbm": 36, "lpips": 0.091}
+        ],
+        "bpg_ldpc_1rx": [
+          {"power_dbm": 28, "lpips": 1.0},
+          {"power_dbm": 29, "lpips": 1.0},
+          {"power_dbm": 30, "lpips": 0.876},
+          {"power_dbm": 31, "lpips": 0.735},
+          {"power_dbm": 32, "lpips": 0.175},
+          {"power_dbm": 33, "lpips": 0.175},
+          {"power_dbm": 34, "lpips": 0.175},
+          {"power_dbm": 35, "lpips": 0.175},
+          {"power_dbm": 36, "lpips": 0.175}
+        ]
+      }
+    }
+  },
+  "figure7": {
+    "conditions": {
+      "modulation": "QPSK",
+      "zenith_deg": 0,
+      "pointing_urad": 15
+    },
+    "series": {
+      "fso_sc_dust": [
+        {"power_dbm": 28, "lpips": 0.094},
+        {"power_dbm": 29, "lpips": 0.084},
+        {"power_dbm": 30, "lpips": 0.084},
+        {"power_dbm": 31, "lpips": 0.083},
+        {"power_dbm": 32, "lpips": 0.081},
+        {"power_dbm": 33, "lpips": 0.081},
+        {"power_dbm": 34, "lpips": 0.081},
+        {"power_dbm": 35, "lpips": 0.081},
+        {"power_dbm": 36, "lpips": 0.081}
+      ],
+      "fso_sc_rain": [
+        {"power_dbm": 28, "lpips": 0.57},
+        {"power_dbm": 29, "lpips": 0.495},
+        {"power_dbm": 30, "lpips": 0.356},
+        {"power_dbm": 31, "lpips": 0.246},
+        {"power_dbm": 32, "lpips": 0.168},
+        {"power_dbm": 33, "lpips": 0.122},
+        {"power_dbm": 34, "lpips": 0.092},
+        {"power_dbm": 35, "lpips": 0.085},
+        {"power_dbm": 36, "lpips": 0.084}
+      ],
+      "fso_sc_snow": [
+        {"power_dbm": 28, "lpips": 0.709},
+        {"power_dbm": 29, "lpips": 0.709},
+        {"power_dbm": 30, "lpips": 0.709},
+        {"power_dbm": 31, "lpips": 0.704},
+        {"power_dbm": 32, "lpips": 0.698},
+        {"power_dbm": 33, "lpips": 0.643},
+        {"power_dbm": 34, "lpips": 0.611},
+        {"power_dbm": 35, "lpips": 0.519},
+        {"power_dbm": 36, "lpips": 0.31}
+      ],
+      "fso_sc_fog": [
+        {"power_dbm": 28, "lpips": 0.709},
+        {"power_dbm": 29, "lpips": 0.709},
+        {"power_dbm": 30, "lpips": 0.709},
+        {"power_dbm": 31, "lpips": 0.709},
+        {"power_dbm": 32, "lpips": 0.709},
+        {"power_dbm": 33, "lpips": 0.709},
+        {"power_dbm": 34, "lpips": 0.709},
+        {"power_dbm": 35, "lpips": 0.709},
+        {"power_dbm": 36, "lpips": 0.709}
+      ],
+      "bpg_ldpc_dust": [
+        {"power_dbm": 28, "lpips": 0.175},
+        {"power_dbm": 29, "lpips": 0.175},
+        {"power_dbm": 30, "lpips": 0.175},
+        {"power_dbm": 31, "lpips": 0.175},
+        {"power_dbm": 32, "lpips": 0.175},
+        {"power_dbm": 33, "lpips": 0.175},
+        {"power_dbm": 34, "lpips": 0.175},
+        {"power_dbm": 35, "lpips": 0.175},
+        {"power_dbm": 36, "lpips": 0.175}
+      ],
+      "bpg_ldpc_rain": [
+        {"power_dbm": 28, "lpips": 1.0},
+        {"power_dbm": 29, "lpips": 1.0},
+        {"power_dbm": 30, "lpips": 0.893},
+        {"power_dbm": 31, "lpips": 0.747},
+        {"power_dbm": 32, "lpips": 0.175},
+        {"power_dbm": 33, "lpips": 0.175},
+        {"power_dbm": 34, "lpips": 0.175},
+        {"power_dbm": 35, "lpips": 0.175},
+        {"power_dbm": 36, "lpips": 0.175}
+      ],
+      "bpg_ldpc_snow": [
+        {"power_dbm": 28, "lpips": 1.0},
+        {"power_dbm": 29, "lpips": 1.0},
+        {"power_dbm": 30, "lpips": 1.0},
+        {"power_dbm": 31, "lpips": 1.0},
+        {"power_dbm": 32, "lpips": 1.0},
+        {"power_dbm": 33, "lpips": 1.0},
+        {"power_dbm": 34, "lpips": 1.0},
+        {"power_dbm": 35, "lpips": 1.0},
+        {"power_dbm": 36, "lpips": 1.0}
+      ],
+      "bpg_ldpc_fog": [
+        {"power_dbm": 28, "lpips": 1.0},
+        {"power_dbm": 29, "lpips": 1.0},
+        {"power_dbm": 30, "lpips": 1.0},
+        {"power_dbm": 31, "lpips": 1.0},
+        {"power_dbm": 32, "lpips": 1.0},
+        {"power_dbm": 33, "lpips": 1.0},
+        {"power_dbm": 34, "lpips": 1.0},
+        {"power_dbm": 35, "lpips": 1.0},
+        {"power_dbm": 36, "lpips": 1.0}
+      ]
+    }
+  }
+}

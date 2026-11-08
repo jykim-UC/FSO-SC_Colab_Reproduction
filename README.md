@@ -1,12 +1,28 @@
 # Reproducing FSO-SC in Colab
 
-[한국어 README](README.ko.md) · [Results and limitations](docs/LATEST_RESULTS.md) · [Data and checkpoints](docs/REPLAY.md)
+[한국어 README](README.ko.md) · [Paper figure gallery](docs/PAPER_FIGURES.md) · [Paper tables](docs/PAPER_TABLES.md) · [Data and checkpoints](docs/REPLAY.md)
 
 An **unofficial, independent partial reproduction** of Wenbin Chen et al., “Free Space Optical Semantic Communication for Satellite Remote Sensing Image Transmission,” *IEEE Transactions on Communications*, 73(10), 9168–9183, 2025. [Paper DOI](https://doi.org/10.1109/TCOMM.2025.3562356)
 
 We implemented the semantic image codec and a symbol-rate optical link from the published description. We recovered the qualitative power response and the benefit of a noise-trained checkpoint in our simulator. **We did not reproduce the paper’s numerical curves at the same launch powers, verify its reported power gain, or replicate the optical hardware experiment.** This repository is not affiliated with the paper's authors.
 
-## At a glance
+## Results by paper figure
+
+The v27 software sweep evaluated 732 distinct channel-condition × method cases on 200 images, plus two no-channel references. The gallery distinguishes direct comparisons with readable paper markers from plots of our results alone.
+
+| Paper item | Reproduction coverage |
+| --- | --- |
+| [Fig. 4 — Zenith angle](docs/PAPER_FIGURES.md#fig-4--zenith-angle) | Three powers, three modulations, and FSO-SC, BPG, and BPG+LDPC. |
+| [Fig. 5 — Reconstructed images](docs/PAPER_FIGURES.md#fig-5--reconstructed-images) | Matched link settings on substitute scenes; the notebook regenerates examples with local inputs. |
+| [Fig. 6 — Pointing error and background light](docs/PAPER_FIGURES.md#fig-6--pointing-error-and-background-light) | All six panels, including the three background radiances. |
+| [Fig. 7 — Weather](docs/PAPER_FIGURES.md#fig-7--weather) | Four weather conditions and nine QPSK power points. |
+| [Fig. 8 — Receiver diversity](docs/PAPER_FIGURES.md#fig-8--receiver-diversity) | MRC/EGC, receiver count, and Málaga scattering ratio. |
+| [Figs. 1–3 and 9–12](docs/PAPER_FIGURES.md#architecture-and-hardware) | Architecture mapped to code; hardware experiments not replicated. |
+| [Tables I–III](docs/PAPER_TABLES.md) | Simulation settings and weather coefficients checked against the implementation; lab-equivalent link budget independently recalculated. |
+
+[![Fig. 7 preview: paper markers and reproduction for all four weather conditions](results/figures/v27_fig7.png)](docs/PAPER_FIGURES.md#fig-7--weather)
+
+## Follow-up diagnostics
 
 | Experiment | What we found |
 | --- | --- |
@@ -14,9 +30,7 @@ We implemented the semantic image codec and a symbol-rate optical link from the 
 | [v32 — Stage 1 vs. Stage 2](docs/LATEST_RESULTS.md) | On the same received-channel realizations, Stage 2 generally loses less quality under errors but has worse no-channel LPIPS (0.205 vs. 0.186). This is a checkpoint comparison, not an isolation of the effect of noise training. |
 | [v33 / v34 — receiver diagnosis and repair](docs/LATEST_RESULTS.md) | The 16QAM phase-tracking variant lowered BER from 26.50% to 10.68% at 24 dBm with the same waveform and weights. It is optional and does not resolve the paper-to-simulator gap. QPSK is unchanged. |
 
-![Paper Fig. 4 and Fig. 7 markers compared with the v31 launch-power extension](results/figures/v31_power_response.png)
-
-The paper markers are approximate readings from its figures, not author-provided raw data. Gray regions extend beyond the published comparison range and are simulator-only. LPIPS is lower-is-better. No curve shifting, smoothing, or noise fitting was used.
+The [v31 power-extension plot](results/figures/v31_power_response.png) shows two selected cases, not the full sweep. Gray regions extend beyond the published comparison range and are simulator-only. See [the detailed v27–v34 results](docs/LATEST_RESULTS.md) and [the earlier baseline](docs/RESULTS.md).
 
 ## Run in Colab
 

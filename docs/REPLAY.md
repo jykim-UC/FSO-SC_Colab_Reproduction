@@ -1,6 +1,6 @@
 # Run on your own inputs or replay a historical experiment
 
-[English README](../README.md) · [한국어 README](../README.ko.md) · [Latest results](LATEST_RESULTS.md)
+[한국어](REPLAY.ko.md) · [English README](../README.md) · [한국어 README](../README.ko.md) · [Latest results](LATEST_RESULTS.md)
 
 **Nothing needs to be copied from Drive to publish this repository.** The release includes source and aggregate results, not the underlying images, checkpoints, original run manifests, native BPG bitstreams, or private per-image outputs.
 

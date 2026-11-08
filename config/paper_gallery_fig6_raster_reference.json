@@ -1,0 +1,1159 @@
+{
+  "metadata": {
+    "doi": "10.1109/TCOMM.2025.3562356",
+    "paper_pdf_sha256": "bd5dd13f193b0076c0181ec4565a8dda1b24ac3494dc5b06c2062ef78440be59",
+    "pdf_page_1based": 9,
+    "printed_page": 9176,
+    "rendered_page_pixels": [
+      1623,
+      2100
+    ],
+    "crop_enlargement": 2,
+    "method": "Manual marker centers on the enlarged Fig. 6 raster. Fit a 3D pinhole projection to seven visible cuboid corners in normalized coordinates, calibrate x and y using the printed floor ticks (logarithmic radiance axis in d–f), and solve LPIPS by projection onto the vertical ray for the known x/y. Compare only endpoint anchors (start shifted to the first unambiguous front row marker in a).",
+    "scope": "Sparse approximate readings from the published figure, not author-provided data or a full-curve reconstruction. Missing markers are unobserved/undigitized and must not be interpolated.",
+    "precision": "Values rounded to 0.01 LPIPS. Approximate visual tolerance 0.02 LPIPS, not a confidence interval and not a bound established from author data.",
+    "calibration_sensitivity": "In 300 diagnostic perturbations per panel (uniform ±1.5 px corners and ticks, ±2 px marker centers on the enlarged raster), the largest shift of any retained unrounded anchor was about 0.012 LPIPS. This probes coordinate sensitivity only, not author measurement uncertainty.",
+    "marker_ray_residual_cutoff_px": 4.5,
+    "point_status": "raster_approx",
+    "calibration_corner_order_xyz": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "calibration": {
+      "a": {
+        "crop_bounds_px": [
+          185,
+          165,
+          604,
+          499
+        ],
+        "corner_pixels": [
+          [
+            148,
+            512
+          ],
+          [
+            474,
+            630
+          ],
+          [
+            424,
+            405
+          ],
+          [
+            733,
+            491
+          ],
+          [
+            132,
+            95
+          ],
+          [
+            425,
+            46
+          ],
+          [
+            753,
+            88
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          174,
+          233,
+          295,
+          361,
+          432
+        ],
+        "y_floor_tick_u_px": [
+          514,
+          616,
+          708
+        ],
+        "corner_max_residual_px": 0.329,
+        "normalized_tick_max_residual": 0.0037,
+        "z_tick_labels": "0–1, increments of 0.10"
+      },
+      "b": {
+        "crop_bounds_px": [
+          608,
+          165,
+          1027,
+          499
+        ],
+        "corner_pixels": [
+          [
+            130,
+            501
+          ],
+          [
+            455,
+            621
+          ],
+          [
+            405,
+            394
+          ],
+          [
+            714,
+            482
+          ],
+          [
+            114,
+            84
+          ],
+          [
+            405,
+            36
+          ],
+          [
+            734,
+            76
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          155,
+          215,
+          277,
+          343,
+          412
+        ],
+        "y_floor_tick_u_px": [
+          493,
+          596,
+          689
+        ],
+        "corner_max_residual_px": 0.667,
+        "normalized_tick_max_residual": 0.0042,
+        "z_tick_labels": "0–1, increments of 0.10"
+      },
+      "c": {
+        "crop_bounds_px": [
+          1030,
+          165,
+          1449,
+          499
+        ],
+        "corner_pixels": [
+          [
+            136,
+            492
+          ],
+          [
+            461,
+            612
+          ],
+          [
+            412,
+            386
+          ],
+          [
+            721,
+            474
+          ],
+          [
+            120,
+            76
+          ],
+          [
+            412,
+            28
+          ],
+          [
+            741,
+            68
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          162,
+          221,
+          282,
+          349,
+          419
+        ],
+        "y_floor_tick_u_px": [
+          501,
+          604,
+          696
+        ],
+        "corner_max_residual_px": 0.625,
+        "normalized_tick_max_residual": 0.0025,
+        "z_tick_labels": "0–1, increments of 0.10"
+      },
+      "d": {
+        "crop_bounds_px": [
+          185,
+          538,
+          604,
+          908
+        ],
+        "corner_pixels": [
+          [
+            154,
+            513
+          ],
+          [
+            478,
+            630
+          ],
+          [
+            428,
+            405
+          ],
+          [
+            735,
+            493
+          ],
+          [
+            136,
+            94
+          ],
+          [
+            428,
+            46
+          ],
+          [
+            755,
+            87
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          165,
+          198,
+          231,
+          265,
+          301,
+          338,
+          377,
+          416,
+          456
+        ],
+        "y_floor_tick_u_px": [
+          500,
+          632,
+          735
+        ],
+        "corner_max_residual_px": 1.08,
+        "normalized_tick_max_residual": 0.0133,
+        "z_tick_labels": "0–1, increments of 0.10"
+      },
+      "e": {
+        "crop_bounds_px": [
+          608,
+          538,
+          1027,
+          908
+        ],
+        "corner_pixels": [
+          [
+            154,
+            513
+          ],
+          [
+            480,
+            631
+          ],
+          [
+            430,
+            406
+          ],
+          [
+            738,
+            493
+          ],
+          [
+            137,
+            94
+          ],
+          [
+            430,
+            45
+          ],
+          [
+            757,
+            87
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          166,
+          199,
+          233,
+          267,
+          303,
+          339,
+          378,
+          418,
+          457
+        ],
+        "y_floor_tick_u_px": [
+          502,
+          634,
+          738
+        ],
+        "corner_max_residual_px": 0.582,
+        "normalized_tick_max_residual": 0.0119,
+        "z_tick_labels": "0–1, increments of 0.10"
+      },
+      "f": {
+        "crop_bounds_px": [
+          1030,
+          538,
+          1449,
+          908
+        ],
+        "corner_pixels": [
+          [
+            141,
+            513
+          ],
+          [
+            467,
+            632
+          ],
+          [
+            417,
+            407
+          ],
+          [
+            726,
+            494
+          ],
+          [
+            123,
+            95
+          ],
+          [
+            417,
+            46
+          ],
+          [
+            745,
+            88
+          ]
+        ],
+        "x_floor_tick_u_px": [
+          152,
+          185,
+          218,
+          252,
+          288,
+          325,
+          364,
+          404,
+          444
+        ],
+        "y_floor_tick_u_px": [
+          489,
+          621,
+          726
+        ],
+        "corner_max_residual_px": 0.359,
+        "normalized_tick_max_residual": 0.0105,
+        "z_tick_labels": "0–1, increments of 0.10"
+      }
+    },
+    "fig6d_prior_reference_note": "Three separately extracted ceiling anchors remain in the older Fig. 6(d) config; this file does not duplicate those points."
+  },
+  "figure6": {
+    "a": {
+      "series": {
+        "bpg_ldpc_z0": [
+          {
+            "pointing_urad": 19,
+            "lpips": 0.17,
+            "marker_center_px": [
+              274,
+              455
+            ],
+            "marker_ray_residual_px": 1.44,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.17,
+            "marker_center_px": [
+              476,
+              521
+            ],
+            "marker_ray_residual_px": 4.07,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z0": [
+          {
+            "pointing_urad": 19,
+            "lpips": 0.08,
+            "marker_center_px": [
+              274,
+              495
+            ],
+            "marker_ray_residual_px": 0.66,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.1,
+            "marker_center_px": [
+              475,
+              552
+            ],
+            "marker_ray_residual_px": 3.4,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              324,
+              397
+            ],
+            "marker_ray_residual_px": 0.37,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.17,
+            "marker_center_px": [
+              581,
+              472
+            ],
+            "marker_ray_residual_px": 3.49,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              325,
+              433
+            ],
+            "marker_ray_residual_px": 0.95,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.11,
+            "marker_center_px": [
+              581,
+              494
+            ],
+            "marker_ray_residual_px": 4.07,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              422,
+              362
+            ],
+            "marker_ray_residual_px": 0.23,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 1,
+            "marker_center_px": [
+              687,
+              89
+            ],
+            "marker_ray_residual_px": 3.45,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              422,
+              396
+            ],
+            "marker_ray_residual_px": 0.33,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.45,
+            "marker_center_px": [
+              679,
+              316
+            ],
+            "marker_ray_residual_px": 4.48,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 12,
+      "missing_points": 18
+    },
+    "b": {
+      "series": {
+        "bpg_ldpc_z0": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              194,
+              426
+            ],
+            "marker_ray_residual_px": 1.25,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.78,
+            "marker_center_px": [
+              458,
+              232
+            ],
+            "marker_ray_residual_px": 4.39,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z0": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              195,
+              462
+            ],
+            "marker_ray_residual_px": 1.18,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              305,
+              388
+            ],
+            "marker_ray_residual_px": 1.24,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              306,
+              423
+            ],
+            "marker_ray_residual_px": 1.79,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.48,
+            "marker_center_px": [
+              565,
+              329
+            ],
+            "marker_ray_residual_px": 3.96,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              404,
+              353
+            ],
+            "marker_ray_residual_px": 1.85,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              404,
+              386
+            ],
+            "marker_ray_residual_px": 1.9,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 8,
+      "missing_points": 22
+    },
+    "c": {
+      "series": {
+        "bpg_ldpc_z0": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              201,
+              418
+            ],
+            "marker_ray_residual_px": 0.44,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 1,
+            "marker_center_px": [
+              465,
+              116
+            ],
+            "marker_ray_residual_px": 1.87,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z0": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              202,
+              454
+            ],
+            "marker_ray_residual_px": 0.5,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.49,
+            "marker_center_px": [
+              463,
+              358
+            ],
+            "marker_ray_residual_px": 2.08,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              312,
+              379
+            ],
+            "marker_ray_residual_px": 0.48,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 1,
+            "marker_center_px": [
+              578,
+              92
+            ],
+            "marker_ray_residual_px": 3.47,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z30": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              312,
+              413
+            ],
+            "marker_ray_residual_px": 0.04,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.53,
+            "marker_center_px": [
+              572,
+              302
+            ],
+            "marker_ray_residual_px": 2.69,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.17,
+            "marker_center_px": [
+              410,
+              345
+            ],
+            "marker_ray_residual_px": 0.67,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 1,
+            "marker_center_px": [
+              675,
+              69
+            ],
+            "marker_ray_residual_px": 3.47,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_z60": [
+          {
+            "pointing_urad": 18,
+            "lpips": 0.08,
+            "marker_center_px": [
+              410,
+              375
+            ],
+            "marker_ray_residual_px": 0.71,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "pointing_urad": 22,
+            "lpips": 0.7,
+            "marker_center_px": [
+              671,
+              195
+            ],
+            "marker_ray_residual_px": 4.32,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 12,
+      "missing_points": 18
+    },
+    "d": {
+      "series": {
+        "bpg_ldpc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.17,
+            "marker_center_px": [
+              189,
+              438
+            ],
+            "marker_ray_residual_px": 0.87,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              478,
+              534
+            ],
+            "marker_ray_residual_px": 3.22,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.08,
+            "marker_center_px": [
+              190,
+              475
+            ],
+            "marker_ray_residual_px": 0.49,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.08,
+            "marker_center_px": [
+              477,
+              575
+            ],
+            "marker_ray_residual_px": 3.85,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.17,
+            "marker_center_px": [
+              323,
+              390
+            ],
+            "marker_ray_residual_px": 0.16,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              611,
+              473
+            ],
+            "marker_ray_residual_px": 1.41,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.08,
+            "marker_center_px": [
+              325,
+              425
+            ],
+            "marker_ray_residual_px": 1.28,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.08,
+            "marker_center_px": [
+              609,
+              512
+            ],
+            "marker_ray_residual_px": 0.55,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl1": [
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              719,
+              420
+            ],
+            "marker_ray_residual_px": 0.24,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl1": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.55,
+            "marker_center_px": [
+              444,
+              214
+            ],
+            "marker_ray_residual_px": 3.6,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.08,
+            "marker_center_px": [
+              717,
+              456
+            ],
+            "marker_ray_residual_px": 0.11,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 11,
+      "missing_points": 43
+    },
+    "e": {
+      "series": {
+        "bpg_ldpc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.66,
+            "marker_center_px": [
+              183,
+              239
+            ],
+            "marker_ray_residual_px": 0.85,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              480,
+              534
+            ],
+            "marker_ray_residual_px": 2.46,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.17,
+            "marker_center_px": [
+              190,
+              438
+            ],
+            "marker_ray_residual_px": 0.82,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.08,
+            "marker_center_px": [
+              480,
+              575
+            ],
+            "marker_ray_residual_px": 2.12,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.98,
+            "marker_center_px": [
+              321,
+              74
+            ],
+            "marker_ray_residual_px": 0.68,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              613,
+              473
+            ],
+            "marker_ray_residual_px": 1.46,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.23,
+            "marker_center_px": [
+              325,
+              369
+            ],
+            "marker_ray_residual_px": 0.23,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.07,
+            "marker_center_px": [
+              611,
+              513
+            ],
+            "marker_ray_residual_px": 0.56,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl1": [
+          {
+            "power_dbm": 28,
+            "lpips": 1,
+            "marker_center_px": [
+              447,
+              47
+            ],
+            "marker_ray_residual_px": 3.5,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.84,
+            "marker_center_px": [
+              733,
+              150
+            ],
+            "marker_ray_residual_px": 0.16,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl1": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.71,
+            "marker_center_px": [
+              447,
+              155
+            ],
+            "marker_ray_residual_px": 3.74,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.23,
+            "marker_center_px": [
+              722,
+              399
+            ],
+            "marker_ray_residual_px": 0.34,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 12,
+      "missing_points": 42
+    },
+    "f": {
+      "series": {
+        "bpg_ldpc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.78,
+            "marker_center_px": [
+              168,
+              190
+            ],
+            "marker_ray_residual_px": 3.23,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              466,
+              535
+            ],
+            "marker_ray_residual_px": 2.48,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.0001": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.36,
+            "marker_center_px": [
+              173,
+              364
+            ],
+            "marker_ray_residual_px": 1.71,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.09,
+            "marker_center_px": [
+              466,
+              573
+            ],
+            "marker_ray_residual_px": 2.2,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.81,
+            "marker_center_px": [
+              307,
+              145
+            ],
+            "marker_ray_residual_px": 0.74,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.17,
+            "marker_center_px": [
+              599,
+              474
+            ],
+            "marker_ray_residual_px": 0.77,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl0.01": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.39,
+            "marker_center_px": [
+              309,
+              310
+            ],
+            "marker_ray_residual_px": 0,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 0.08,
+            "marker_center_px": [
+              597,
+              513
+            ],
+            "marker_ray_residual_px": 0.17,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "bpg_ldpc_bgl1": [
+          {
+            "power_dbm": 28,
+            "lpips": 0.99,
+            "marker_center_px": [
+              432,
+              50
+            ],
+            "marker_ray_residual_px": 3.18,
+            "uncertainty_lpips_approx": 0.02
+          },
+          {
+            "power_dbm": 36,
+            "lpips": 1,
+            "marker_center_px": [
+              724,
+              85
+            ],
+            "marker_ray_residual_px": 0.59,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ],
+        "fso_sc_bgl1": [
+          {
+            "power_dbm": 36,
+            "lpips": 0.39,
+            "marker_center_px": [
+              713,
+              338
+            ],
+            "marker_ray_residual_px": 0.65,
+            "uncertainty_lpips_approx": 0.02
+          }
+        ]
+      },
+      "included_points": 11,
+      "missing_points": 43
+    }
+  }
+}

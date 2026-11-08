@@ -1,6 +1,6 @@
 # 명시값, 독립 구현, 미결정 사항
 
-아래 학습 예산·Stage 2 설정은 01–03번 **이전 baseline** 기준입니다. 후속 실험의 v25 wide1375는 [별도 학습 경로](REPLAY.md#how-the-frozen-model-was-produced)를 사용합니다. v34는 고정 가중치·채널에서 16QAM 위상 추정만 교체한 선택적 비교입니다.
+아래 학습 예산·Stage 2 설정은 01–03번 **이전 baseline** 기준입니다. 후속 실험의 v25 wide1375는 [별도 학습 경로](REPLAY.ko.md#how-the-frozen-model-was-produced)를 사용합니다. v34는 고정 가중치·채널에서 16QAM 위상 추정만 교체한 선택적 비교입니다.
 
 기준은 [Chen et al., TCOM 2025](https://doi.org/10.1109/TCOMM.2025.3562356)의 모델·손실·채널 설명입니다. 아래의 추정값은 저자 설정으로 확인된 값이 아닙니다.
 

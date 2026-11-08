@@ -1,12 +1,12 @@
 # Reproduction results: v27 and v31–v34
 
-[English README](../README.md) · [한국어 README](../README.ko.md) · [Replay inputs](REPLAY.md) · [Earlier 200-image holdout](RESULTS.md)
+[한국어](LATEST_RESULTS.ko.md) · [English README](../README.md) · [한국어 README](../README.ko.md) · [Paper figure gallery](PAPER_FIGURES.md) · [Paper tables](PAPER_TABLES.md) · [Replay inputs](REPLAY.md) · [Earlier 200-image holdout](RESULTS.md)
 
 **Qualitative, partial reproduction.** The wider sweeps show gradual FSO-SC recovery and a sharper BPG+LDPC transition in this simulator. They do not locate the transition at the paper's launch powers. The experiments below use independent weights and substitute evaluation imagery. None claims the authors' 3 dB gain, VPI receiver, exact numerical curves, or 10 Gbps hardware results.
 
 | Run | Scope | Public evidence |
 | --- | --- | --- |
-| v27 | Frozen v25 Stage 2 on 200 images; 732 distinct channel-condition × method cases, plus 400 no-channel image evaluations | [734 aggregate rows](../results/paper_sweep_v27_aggregate.json) |
+| v27 | Frozen v25 Stage 2 on 200 images; 732 distinct channel-condition × method cases, plus 400 no-channel image evaluations | [Fig. 4–8 gallery](PAPER_FIGURES.md) · [734 aggregate rows](../results/paper_sweep_v27_aggregate.json) |
 | v31 | Power extension on a 32-image subset of v27; 36 conditions × two methods | [Aggregate](../results/power_extension_v31_aggregate.json) · [Power curves](../results/figures/v31_power_response.png) · [Transport metrics](../results/figures/power_extension_transport.png) |
 | v32 | Stage 1 vs. Stage 2 on the same 32 images and 36 conditions | [Aggregate](../results/stage_effect_v32_aggregate.json) · [Quality](../results/figures/stage_effect_quality_v32.png) · [Transport](../results/figures/stage_effect_transport_v32.png) |
 | v33 | Existing DSP vs. true-complex-gain diagnostic on 192 shared observations | [Aggregate](../results/receiver_transition_v33_aggregate.json) · [Plot](../results/figures/receiver_transition_v33.png) |

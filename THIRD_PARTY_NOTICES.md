@@ -1,5 +1,7 @@
 # Third-party components and attribution
 
+[한국어](THIRD_PARTY_NOTICES.ko.md)
+
 This is an independent reproduction, not an official release from the FSO-SC paper's authors. This file records upstream sources; it does not assign a license to this repository or replace upstream license texts.
 
 ## Research and implementation references

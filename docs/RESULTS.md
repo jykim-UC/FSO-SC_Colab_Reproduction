@@ -1,6 +1,6 @@
 # 개발 및 최종 holdout 결과
 
-이 문서는 공개 자체 데이터 워크플로(01–03)와 대응하는 **이전 baseline**을 보존합니다. 다른 가중치(v25 wide1375)로 수행한 [후속 v27·v31–v34 결과](LATEST_RESULTS.md)와 합산하거나 동일한 holdout으로 해석하지 마세요.
+이 문서는 공개 자체 데이터 워크플로(01–03)와 대응하는 **이전 baseline**을 보존합니다. 다른 가중치(v25 wide1375)로 수행한 [후속 v27·v31–v34 결과](LATEST_RESULTS.ko.md)와 합산하거나 동일한 holdout으로 해석하지 마세요.
 
 상태: **conditional/partial reproduction**. 기존 개발 200장과 별도 frozen holdout 200장을 구분해 보고합니다. 두 run 모두 clean 2개 + 2프로필×14조건×3방법의 86개 집계 행이며, 공개 JSON에는 원본 좌표 파일명·계정 경로를 포함하지 않습니다.
 
