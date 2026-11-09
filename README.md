@@ -16,7 +16,7 @@ The v27 software sweep evaluated 732 distinct channel-condition × method cases 
 | [Fig. 5 — Reconstructed images](docs/PAPER_FIGURES.md#fig-5--reconstructed-images) | Matched link settings on substitute scenes; the notebook regenerates examples with local inputs. |
 | [Fig. 6 — Pointing error and background light](docs/PAPER_FIGURES.md#fig-6--pointing-error-and-background-light) | All six panels, including the three background radiances. |
 | [Fig. 7 — Weather](docs/PAPER_FIGURES.md#fig-7--weather) | Four weather conditions and nine QPSK power points. |
-| [Fig. 8 — Receiver diversity](docs/PAPER_FIGURES.md#fig-8--receiver-diversity) | MRC/EGC, receiver count, and Málaga scattering ratio. |
+| [Fig. 8 — Receiver diversity](docs/PAPER_FIGURES.md#fig-8--receiver-diversity) | MRC/EGC, receiver count, and Málaga scattering ratio; separate Fig. 8(b) low-power extension. |
 | [Figs. 1–3 and 9–12](docs/PAPER_FIGURES.md#architecture-and-hardware) | Architecture mapped to code; hardware experiments not replicated. |
 | [Tables I–III](docs/PAPER_TABLES.md) | Simulation settings and weather coefficients checked against the implementation; lab-equivalent link budget independently recalculated. |
 
@@ -29,8 +29,9 @@ The v27 software sweep evaluated 732 distinct channel-condition × method cases 
 | [v27 / v31 — launch-power response](docs/LATEST_RESULTS.md) | FSO-SC recovers gradually when the sweep spans the transition; the tested BPG+LDPC baseline has a sharper decoding transition. Clear air recovers earlier and snow later than in the paper. |
 | [v32 — Stage 1 vs. Stage 2](docs/LATEST_RESULTS.md) | On the same received-channel realizations, Stage 2 generally loses less quality under errors but has worse no-channel LPIPS (0.205 vs. 0.186). This is a checkpoint comparison, not an isolation of the effect of noise training. |
 | [v33 / v34 — receiver diagnosis and repair](docs/LATEST_RESULTS.md) | The 16QAM phase-tracking variant lowered BER from 26.50% to 10.68% at 24 dBm with the same waveform and weights. It is optional and does not resolve the paper-to-simulator gap. QPSK is unchanged. |
+| [v35 — Fig. 8(b) at lower powers](docs/LATEST_RESULTS.md#v35-fig-8b-low-power-extension) | The mean Alex LPIPS ranking of four-receiver BPG+LDPC and FSO-SC switches between 20 and 22 dBm, below the paper's approximate 30–31 dBm bracket. |
 
-The [v31 power-extension plot](results/figures/v31_power_response.png) shows two selected cases, not the full sweep. Gray regions extend beyond the published comparison range and are simulator-only. See [the detailed v27–v34 results](docs/LATEST_RESULTS.md) and [the earlier baseline](docs/RESULTS.md).
+The [v31 power-extension plot](results/figures/v31_power_response.png) shows two selected cases, not the full sweep. Gray regions extend beyond the published comparison range and are simulator-only. See [the detailed v27–v35 results](docs/LATEST_RESULTS.md) and [the earlier baseline](docs/RESULTS.md).
 
 ## Run in Colab
 
@@ -46,6 +47,7 @@ Download the notebook you want and upload it through **File → Upload notebook*
 | [v32 — Compare training stages](notebooks/frozen/FSO_SC_stage_effect_v32.ipynb) | Locked Stage 1 and v25 Stage 2; compare raw quality and channel-induced degradation. |
 | [v33 — Diagnose the receiver](notebooks/frozen/FSO_SC_receiver_transition_v33.ipynb) | Locked v25; current DSP and a true-complex-gain oracle on the same observation. |
 | [v34 — Compare 16QAM phase tracking](notebooks/frozen/FSO_SC_qam16_phase_repair_v34.ipynb) | Locked v25; compare the original and new receivers without training. |
+| [v35 — Extend Fig. 8(b) to lower power](notebooks/frozen/FSO_SC_fig8b_lowpower_v35.ipynb) | Locked v25 and original v27 BPG bitstreams; unchanged v27 channel and receiver. No training. |
 
 **Start with 01–03 for your own data.** The frozen notebooks verify the original inputs by checksum and cannot use a newly trained checkpoint in their place. The published aggregates and figures can be inspected without any Drive files; the exact replay inputs are not bundled. See [the exact file list](docs/REPLAY.md) and [data preparation](docs/DATA.md).
 

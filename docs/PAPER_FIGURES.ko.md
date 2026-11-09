@@ -70,6 +70,14 @@ v27의 먼지 조건은 이미 무채널 점수에 가까웠다. 비 조건에�
 
 Fig. 8(d)의 캡션에는 **LDPC 미적용**, 범례와 본문에는 **LDPC 적용**으로 되어 있다. 재현에서는 범례와 본문을 따랐다. (b)의 28 dBm에서 논문 LPIPS는 수신기 1개의 약 **0.772**에서 수신기 4개(MRC)의 **0.335**로 낮아진다. v27에서는 두 조건 모두 BPG의 무채널 기준값 **0.401**에 이미 도달해 이 다이버시티 이득이 나타나지 않았다. 분기별 페이딩, 분기 간 상대 채널 정보, LDPC 구성은 독립적으로 구현했다.
 
+### Fig. 8(b) 저전력 확장 (v35)
+
+별도 v35 실험에서 v27 수신기 변경이나 재학습 없이 18 dBm까지 전력을 낮췄다. 4수신기 BPG+LDPC는 무채널 LPIPS를 유지했고 FSO-SC는 전력이 높아지면서 개선됐다. 관측 평균 순위는 **20–22 dBm 사이**에서 바뀌었다(논문: 약 **30–31 dBm**). 낮은 전력에서 교차 패턴을 확인했지만, 공통 조건인 28 dBm에서 논문의 순위가 재현된 것은 아니다. 이 실험의 32장 결과와 v27의 200장 결과는 합치지 않았다.
+
+![Fig. 8(b) v35 저전력에서의 복원 품질과 짝지은 LPIPS 비교](../results/figures/fig8b_low_power_quality.png)
+
+[짝지은 비교 수치와 집계 오류 수정](LATEST_RESULTS.ko.md#v35-fig-8b-low-power-extension) · [전송 지표](../results/figures/fig8b_low_power_transport.png)
+
 <a name="architecture-and-hardware"></a>
 
 ## 모델 구조와 하드웨어 실험
@@ -96,6 +104,6 @@ v28에서는 v27 평가에 사용한 영상 중 32장으로, 광학 채널과 FE
 
 출처: v28 `factor_diagnostic_summary.json`의 `source_quality.results`, SHA-256 `4904e93e35168f67ecaae2743321771a2ff05704c5e74eb361bfc4d325f352a8`.
 
-## 비교 그래프 다시 그리기
+## v27 비교 그래프 다시 그리기
 
 Matplotlib을 설치한 뒤 저장소 최상위 폴더에서 `python tools/plot_paper_gallery.py`를 실행한다. 공개된 집계와 논문 판독값만 사용하므로, 그래프를 다시 그리는 데 학습·GPU·원본 PDF·체크포인트·Drive 파일이 필요하지 않다. 벡터 마커를 직접 읽으려면 대응하는 논문 PDF와 `pypdf`를 준비해 [판독 도구](../tools/digitize_paper_gallery.py)를 실행한다.

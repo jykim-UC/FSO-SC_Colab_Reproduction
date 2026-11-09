@@ -9,7 +9,8 @@
     "power_extension_v31",
     "stage_effect_v32",
     "receiver_transition_v33",
-    "qam16_repair_v34"
+    "qam16_repair_v34",
+    "fig8b_lowpower_v35"
   ],
   "files": {
     ".gitattributes": {
@@ -21,12 +22,12 @@
       "sha256": "61884d674dae70021a8494e1deca28e2e8518e94d56f3d96c817b2b634476054"
     },
     "README.ko.md": {
-      "bytes": 7285,
-      "sha256": "dfd8915c67a63583f8407d06d69d7f8a864e41f8601c00651367e3c7f0d08481"
+      "bytes": 7787,
+      "sha256": "6a0be13c5a9715531b6696e028941ecbbc987ec860a6548163f02637aa70fa22"
     },
     "README.md": {
-      "bytes": 7826,
-      "sha256": "9d6871f671b760b1ba9b1677a03c1be5e5b277f70821d4d718f4f4210eb671ae"
+      "bytes": 8302,
+      "sha256": "a9d9c5a54eb350f695bfa2386b413acd41dc4cc9527db75676dce6024d4a4cb7"
     },
     "THIRD_PARTY_NOTICES.ko.md": {
       "bytes": 4250,
@@ -65,20 +66,20 @@
       "sha256": "51b9dab55ac14e7f109d0bb8017886d4135a63a132ff3d4376b0fb8aca93952a"
     },
     "docs/LATEST_RESULTS.ko.md": {
-      "bytes": 8005,
-      "sha256": "2520c99062feb816d5f95156f81309c28abbeae249b8973df1e018a3f5b8a7d6"
+      "bytes": 10521,
+      "sha256": "ec113aeaa975467696cb7066d4804b26b520da282e78ce0f97451975ada55721"
     },
     "docs/LATEST_RESULTS.md": {
-      "bytes": 6535,
-      "sha256": "2f18824aadd94cdf9c22978963661682e75cc0ab95a1d8f55fae556293c85c1b"
+      "bytes": 8856,
+      "sha256": "ef29b4540f58cfd22f399c4db39b704c0115cd51870e668505d409096dc4a0e2"
     },
     "docs/PAPER_FIGURES.ko.md": {
-      "bytes": 12053,
-      "sha256": "22de39018d035a77ffe1addfc7056c7d54c445e2a2e98be2e0c4f3720c5f2657"
+      "bytes": 12904,
+      "sha256": "3d0bed4530ffe3af2ad0144d2a8364f0ceb2b6dfa19b92cc74e99783098c63ef"
     },
     "docs/PAPER_FIGURES.md": {
-      "bytes": 9762,
-      "sha256": "e969febbf66c961e00c914021fe60bf783d931204f2319e87fb1b0ddf3338626"
+      "bytes": 10542,
+      "sha256": "b0c01af478e928e734cbae97da3b4fcf516513e5bddc73f47d180da05377cfc3"
     },
     "docs/PAPER_TABLES.ko.md": {
       "bytes": 5427,
@@ -89,12 +90,12 @@
       "sha256": "0044b67867097cb12be8f3f20cb152798f6f4c544a14372a26438e4a8317321b"
     },
     "docs/REPLAY.ko.md": {
-      "bytes": 6139,
-      "sha256": "c608ae6c499605e0d547ce66efbc48534147cb6f6bb61771380c561e15a6349c"
+      "bytes": 6432,
+      "sha256": "b9e259b7e5ea298aab57104353989f3d8a5e1499992c66039492e85cd8d4733c"
     },
     "docs/REPLAY.md": {
-      "bytes": 5669,
-      "sha256": "7ba06038a25778355256c60d7474bf96239a7803cdf5bce64e7b58d74aaa3839"
+      "bytes": 5944,
+      "sha256": "ed806b79b5b6d03c7fcd357986437a314be314da4c2e7a22be0052a6af2c066d"
     },
     "docs/RESULTS.md": {
       "bytes": 8489,
@@ -111,6 +112,10 @@
     "notebooks/03_final_holdout.ipynb": {
       "bytes": 384653,
       "sha256": "c7670173f0645b6987e7ecafbee914a3a66c73dda400d97b27267d335643b00d"
+    },
+    "notebooks/frozen/FSO_SC_fig8b_lowpower_v35.ipynb": {
+      "bytes": 612747,
+      "sha256": "c42cbcc7b1e2c164b19901d0ef1e80f924cb514f78a26d5eca11c82088cf1c7f"
     },
     "notebooks/frozen/FSO_SC_paper_figures_full_v27.ipynb": {
       "bytes": 586799,
@@ -167,6 +172,22 @@
     "results/development_curves.png": {
       "bytes": 203147,
       "sha256": "8c91ea84f35c1466dee36bb5a937dc20a7d012dfc2cf49ce96ca3e704b632d91"
+    },
+    "results/fig8b_low_power_points.csv": {
+      "bytes": 3074,
+      "sha256": "5d321cdd452501269f7054b3c8d8620e1aa9dddd39b9b2c5da7bec17f4cc19d2"
+    },
+    "results/fig8b_lowpower_v35_aggregate.json": {
+      "bytes": 42891,
+      "sha256": "9f94ecfbd9e4ac0854c0b16899c12de5a176427e99f9f73c2d8527f4d19fb3a4"
+    },
+    "results/figures/fig8b_low_power_quality.png": {
+      "bytes": 337971,
+      "sha256": "fb0e491199c66a067c03562eb73c0ccaaa3424ca47212cec7fb2561ad838d58a"
+    },
+    "results/figures/fig8b_low_power_transport.png": {
+      "bytes": 328975,
+      "sha256": "090832359f1b519ecdc491cdee7899525b77f1ec84a0f5ba5aa97e153a8e56f4"
     },
     "results/figures/power_extension_transport.png": {
       "bytes": 221846,
@@ -243,6 +264,10 @@
     "results/stage_effect_v32_aggregate.json": {
       "bytes": 132106,
       "sha256": "a274c059ea2589441ce2267e9f5c38bd132c5145b927c102ac24b5ba51670002"
+    },
+    "tests/test_fig8b_release.py": {
+      "bytes": 2163,
+      "sha256": "f7b44b580c9fabb54aaf59bbc37d1380a94d94465b8be18ecff8b2f99d3acde0"
     },
     "tests/test_offline.py": {
       "bytes": 12221,

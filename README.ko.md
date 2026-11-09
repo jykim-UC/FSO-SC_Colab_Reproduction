@@ -16,7 +16,7 @@ v27에서 이미지 200장에 대해 서로 다른 채널 조건×방식 732개�
 | [Fig. 5 — 복원 영상](docs/PAPER_FIGURES.ko.md#fig-5--reconstructed-images) | 같은 링크 조건의 대체 영상 실험. 노트북에서 자체 입력으로 예시를 다시 생성할 수 있다. |
 | [Fig. 6 — 지향 오차와 배경광](docs/PAPER_FIGURES.ko.md#fig-6--pointing-error-and-background-light) | 배경광 복사휘도 3수준을 포함한 전체 6개 패널. |
 | [Fig. 7 — 기상](docs/PAPER_FIGURES.ko.md#fig-7--weather) | 기상 4종과 QPSK 전력 9점. |
-| [Fig. 8 — 수신 다이버시티](docs/PAPER_FIGURES.ko.md#fig-8--receiver-diversity) | MRC/EGC, 수신기 수, Málaga 산란 비율. |
+| [Fig. 8 — 수신 다이버시티](docs/PAPER_FIGURES.ko.md#fig-8--receiver-diversity) | MRC/EGC, 수신기 수, Málaga 산란 비율. Fig. 8(b) 저전력 확장을 별도로 수록했다. |
 | [Fig. 1–3, 9–12](docs/PAPER_FIGURES.ko.md#architecture-and-hardware) | 시스템·모델 구성은 코드에 대응시켰으며, 광학 장비 실험은 미재현. |
 | [Table I–III](docs/PAPER_TABLES.ko.md) | 채널 설정·기상 감쇠계수를 구현과 대조하고, 실내 등가 링크 버짓은 독립 계산으로 검산. |
 
@@ -29,8 +29,9 @@ v27에서 이미지 200장에 대해 서로 다른 채널 조건×방식 732개�
 | [v27 / v31 — 송신전력](docs/LATEST_RESULTS.ko.md) | 전력 범위를 넓히면 FSO-SC는 점진적으로 회복하고 비교군 BPG+LDPC의 복호는 더 급격하게 전환된다. 맑음은 논문보다 일찍, 눈은 늦게 회복한다. |
 | [v32 — Stage 1 vs. Stage 2](docs/LATEST_RESULTS.ko.md) | 같은 채널 실현에서 Stage 2는 오류가 있을 때 품질 저하가 작았지만 무채널 LPIPS는 0.186에서 0.205로 나빠졌다. 잡음 주입만의 단독 효과를 분리한 비교는 아니다. |
 | [v33 / v34 — 수신기 진단과 개선](docs/LATEST_RESULTS.ko.md) | 같은 파형과 가중치로 24 dBm의 16QAM BER을 26.50%에서 10.68%로 낮췄다. 선택적 수신기 개선으로, 논문과의 수치 차이를 해결한 결과는 아니다. QPSK는 변경하지 않았다. |
+| [v35 — Fig. 8(b) 저전력 확장](docs/LATEST_RESULTS.ko.md#v35-fig-8b-low-power-extension) | 4수신기 BPG+LDPC와 FSO-SC의 평균 Alex LPIPS 순위가 20–22 dBm 사이에서 바뀐다. 논문의 약 30–31 dBm보다 낮은 전력이다. |
 
-[v31 송신전력 확장 그래프](results/figures/v31_power_response.png)는 맑음·눈 두 조건만 보여준다. 회색은 논문 범위 밖의 시뮬레이터 구간이다. [v27–v34 세부 결과](docs/LATEST_RESULTS.ko.md)와 [이전 baseline 결과](docs/RESULTS.md)는 별도 문서에 있다.
+[v31 송신전력 확장 그래프](results/figures/v31_power_response.png)는 맑음·눈 두 조건만 보여준다. 회색은 논문 범위 밖의 시뮬레이터 구간이다. [v27–v35 세부 결과](docs/LATEST_RESULTS.ko.md)와 [이전 baseline 결과](docs/RESULTS.md)는 별도 문서에 있다.
 
 ## Colab에서 실행
 
@@ -46,6 +47,7 @@ v27에서 이미지 200장에 대해 서로 다른 채널 조건×방식 732개�
 | [v32 — Stage 1·2 비교](notebooks/frozen/FSO_SC_stage_effect_v32.ipynb) | 고정 Stage 1·2에서 실제 LPIPS와 각 모델의 무채널 대비 악화량을 비교한다. |
 | [v33 — 수신기 손실 진단](notebooks/frozen/FSO_SC_receiver_transition_v33.ipynb) | 같은 관측에서 기존 DSP와 진단용 이상적 보상을 비교한다. |
 | [v34 — 16QAM 위상 복구 개선](notebooks/frozen/FSO_SC_qam16_phase_repair_v34.ipynb) | 재학습 없이 기존·새 수신기를 비교한다. |
+| [v35 — Fig. 8(b) 저전력 확장](notebooks/frozen/FSO_SC_fig8b_lowpower_v35.ipynb) | 고정 v25와 원본 v27 BPG 비트열, 기존 v27 채널·수신기를 사용한다. 재학습 없음. |
 
 **새 데이터로는 01–03부터 실행한다.** 고정 실험 노트북은 원본 파일의 SHA를 검사하므로 새 모델을 대입할 수 없다. 집계와 그래프를 보는 데에는 Drive 파일이 필요 없으며, 동일 조건 재실행에 필요한 비공개 파일은 [이 목록](docs/REPLAY.ko.md)에서 확인할 수 있다. 데이터 준비는 [데이터 문서](docs/DATA.md)를 참고한다.
 

@@ -18,7 +18,7 @@ See [data preparation](DATA.md). Use the same `RUN_NAME` for 02 and 03. This wor
 
 ## Replay the locked v25 experiments
 
-These are records of executed experiments, not a quick start for a new dataset. All five locked evaluation notebooks need the **original, unchanged** files below. Restore them to your own Drive from a private backup if you already own them:
+These are records of executed experiments, not a quick start for a new dataset. All six locked evaluation notebooks need the **original, unchanged** files below. Restore them to your own Drive from a private backup if you already own them:
 
 ```text
 MyDrive/FSO_data/
@@ -29,8 +29,8 @@ MyDrive/FSO_data/
         ├── configuration.json
         └── resume/
             ├── stage2_resume_a.pth
-            ├── stage2_resume.json       # also checked by v27 / v31
-            └── stage2_store.json        # also checked by v27 / v31
+            ├── stage2_resume.json       # also checked by v27 / v31 / v35
+            └── stage2_store.json        # also checked by v27 / v31 / v35
 ```
 
 The `extension_…` directory is located by the original summary SHA, not by taking the newest file. The v25 checkpoint is **3,250,750,999 bytes**, SHA-256 `c4443bd14c0e3292e4a456a715e5de27a42855097a46244d93fc573fb656f121`. The notebooks use its fixed weights for inference and do not restore the optimizer. Keeping the whole original `resume/` directory privately is safer than reconstructing individual metadata files.
@@ -41,6 +41,7 @@ The `extension_…` directory is located by the original summary SHA, not by tak
 | [v31](../notebooks/frozen/FSO_SC_power_extension_v31.ipynb) | Original `stage2_paper_sweep_v27/frozen_882a885033790ab2/`: `paper_sweep_summary.json`, `sources/selected_native_bpg.zip`, and the 24 shared `cases/<id>/metrics.json` files. Preserve the whole v27 run directory privately. |
 | [v32](../notebooks/frozen/FSO_SC_stage_effect_v32.ipynb) | `rebuild_v12/rebuild_v12_run1/stage1_final.pth`, the original completed Stage 1, not an early epoch. |
 | [v33](../notebooks/frozen/FSO_SC_receiver_transition_v33.ipynb) / [v34](../notebooks/frozen/FSO_SC_qam16_phase_repair_v34.ipynb) | None. No Stage 1 or v27 output is read. |
+| [v35](../notebooks/frozen/FSO_SC_fig8b_lowpower_v35.ipynb) | Original `paper_sweep_summary.json` and `sources/selected_native_bpg.zip` under `stage2_paper_sweep_v27/frozen_882a885033790ab2/`. No v27 case metrics, v31 results, or Stage 1 checkpoint are needed. |
 
 The locked inference notebooks do not need the ImageNet or NAIP training ZIPs. The small published `*_aggregate.json` files **cannot** stand in for the original pinned summaries. The notebooks verify input hashes, but small numerical differences can still occur with a different hardware or runtime. See each notebook for storage and compute requirements.
 

@@ -1,4 +1,4 @@
-# Reproduction results: v27 and v31–v34
+# Reproduction results: v27 and v31–v35
 
 [한국어](LATEST_RESULTS.ko.md) · [English README](../README.md) · [한국어 README](../README.ko.md) · [Paper figure gallery](PAPER_FIGURES.md) · [Paper tables](PAPER_TABLES.md) · [Replay inputs](REPLAY.md) · [Earlier 200-image holdout](RESULTS.md)
 
@@ -11,8 +11,9 @@
 | v32 | Stage 1 vs. Stage 2 on the same 32 images and 36 conditions | [Aggregate](../results/stage_effect_v32_aggregate.json) · [Quality](../results/figures/stage_effect_quality_v32.png) · [Transport](../results/figures/stage_effect_transport_v32.png) |
 | v33 | Existing DSP vs. true-complex-gain diagnostic on 192 shared observations | [Aggregate](../results/receiver_transition_v33_aggregate.json) · [Plot](../results/figures/receiver_transition_v33.png) |
 | v34 | Optional 16QAM block phase tracking vs. existing DSP and oracle on 192 shared observations | [Aggregate](../results/qam16_repair_v34_aggregate.json) · [Plot](../results/figures/qam16_repair_v34.png) |
+| v35 | Fig. 8(b) low-power extension; 32 reused images, 768 transmission and 64 no-channel evaluations | [Aggregate](../results/fig8b_lowpower_v35_aggregate.json) · [CSV](../results/fig8b_low_power_points.csv) · [Quality](../results/figures/fig8b_low_power_quality.png) · [Transport](../results/figures/fig8b_low_power_transport.png) |
 
-The v31–v34 runs reuse the same 32 images; they are **not new holdout experiments**. The earlier holdout used a different model and protocol and should not be pooled with these results. Where provided, confidence intervals are pointwise image-bootstrap 95% intervals, not uncertainty on the paper markers. The exported JSON contains aggregate metrics and code/weights digests, not image lists, raw frame records, or replay inputs.
+The v31–v35 runs reuse the same 32 images; they are **not new holdout experiments**. The earlier holdout used a different model and protocol and should not be pooled with these results. Where provided, confidence intervals are pointwise image-bootstrap 95% intervals, not uncertainty on the paper markers. The exported JSON contains aggregate metrics and code/weights digests, not image lists, raw frame records, or replay inputs.
 
 ## v27–v31: power response
 
@@ -44,3 +45,19 @@ v33 feeds the same observation to the existing receiver and to an oracle that di
 v34 keeps the same coarse frequency estimate, observation, channel, and v25 weights, but fits one smooth phase trajectory over the 16QAM frame instead of unwrapping many local windows. At 24 dBm the BER drops from **26.50% to 10.68%** (oracle: 10.65%) and Alex LPIPS from **0.494 to 0.461**. Across the 24/26/28 dBm transition points, mean BER falls by **7.69 percentage points** (paired 95% CI: 5.24–10.41) and mean Alex LPIPS by **0.0242** (0.0159–0.0344). At 30/33/36 dBm the mean LPIPS change is **−0.00050** (95% CI: −0.00126 to +0.00029); no clear degradation was detected, but this is not an equivalence claim.
 
 v34 is an engineering extension, **not the receiver used to report v27/v31, not a paper-reproduction correction**, and not validated on unseen geometries. It does not change QPSK. The oracle is a diagnostic reference and is not a deployable receiver.
+
+<a name="v35-fig-8b-low-power-extension"></a>
+
+## v35: Fig. 8(b) low-power extension
+
+v35 uses the fixed v25 weights, original v27 BPG bitstreams, and unchanged v27 channel and receiver, **not** the optional v34 receiver. On 32 reused images, it compares single-receiver FSO-SC with BPG+LDPC using 1/2/4 receivers with MRC at 18–28 dBm in 2 dB steps. No retraining, parameter fitting, or power-axis shift was applied.
+
+| Launch power | FSO-SC Alex LPIPS | 4 Rx BPG+LDPC Alex LPIPS | Paired 95% CI for 4 Rx minus FSO-SC | BPG+LDPC failures out of 32, 1/2/4 Rx |
+| ---: | ---: | ---: | --- | ---: |
+| 18 dBm | 0.5172 | 0.4001 | [−0.1700, −0.0659] | 31 / 19 / 0 |
+| 20 dBm | 0.4362 | 0.4001 | [−0.0873, +0.0143] | 27 / 0 / 0 |
+| 22 dBm | 0.3168 | 0.4001 | [+0.0451, +0.1214] | 10 / 0 / 0 |
+
+The observed mean ranking switches between **20 and 22 dBm**, compared with **approximately 30–31 dBm** in the digitized paper. These are brackets between tested points, not fitted thresholds. At 20 dBm the interval includes zero; the pointwise intervals support opposite rankings at 18 and 22 dBm. Four-receiver BPG+LDPC decoded all 32 images at every tested power and stayed at its no-channel LPIPS. The reversal therefore does not depend on assigning a failure marker to either curve. At the shared 28 dBm point, v35 still favors FSO-SC, whereas the paper's digitized marker favors 4 Rx BPG+LDPC. This recovers the **qualitative ranking change**, not agreement at the same launch powers. The original 200-image v27 result remains separate.
+
+**Reporting correction:** The initial v35 summary copied the number of images failing with 1 Rx but decoding with 4 Rx into the reverse count. Recounting the original frame records gives **zero** images that failed with 4 Rx but decoded with 1 Rx, at every tested power. The published aggregate and replay notebook use the corrected count. LPIPS, BER, marginal failure totals, and paired intervals are unchanged; no experiment was rerun.

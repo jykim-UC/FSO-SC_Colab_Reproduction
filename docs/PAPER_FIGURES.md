@@ -58,6 +58,14 @@ In v27, dust is already close to the no-channel scores. Rain improves from **0.3
 
 The caption of Fig. 8(d) says **without LDPC**, while its plotted legend and the discussion indicate **with LDPC**. We follow the legend and discussion. At 28 dBm in (b), the paper shows LPIPS dropping from about **0.772** (1 Rx) to **0.335** (4 Rx, MRC). Both v27 cases are already at the BPG no-channel value **0.401**, so we do not recover that diversity gain. Branch fading, relative channel information, and the LDPC construction are independent simulator choices.
 
+### Fig. 8(b) low-power extension (v35)
+
+The separate v35 sweep lowers power to 18 dBm without changing the v27 receiver or retraining. Four-receiver BPG+LDPC stays at its no-channel LPIPS while FSO-SC improves with power. Their observed mean ordering switches between **20 and 22 dBm** (paper: approximately **30–31 dBm**). This recovers the pattern at lower powers, not the paper's ordering at the shared 28 dBm point. The 32-image extension is not pooled with the 200-image v27 sweep.
+
+![Fig. 8(b) v35 low-power quality and paired LPIPS comparisons](../results/figures/fig8b_low_power_quality.png)
+
+[Paired estimates and reporting correction](LATEST_RESULTS.md#v35-fig-8b-low-power-extension) · [Transport diagnostics](../results/figures/fig8b_low_power_transport.png)
+
 ## Architecture and hardware
 
 | Paper item | Status |
@@ -82,6 +90,6 @@ v28 isolates the compression part of Fig. 10 on 32 images reused from v27, witho
 
 Source: v28 `factor_diagnostic_summary.json`, SHA-256 `4904e93e35168f67ecaae2743321771a2ff05704c5e74eb361bfc4d325f352a8`, `source_quality.results`.
 
-## Regenerate the gallery
+## Regenerate the v27 gallery
 
 From the repository root, install Matplotlib and run `python tools/plot_paper_gallery.py`. The plots use only the released aggregates and paper reference points. No training, GPU, original PDF, model checkpoint, or Drive file is needed to redraw them. To independently extract the vector marker readings, use the [digitization helper](../tools/digitize_paper_gallery.py) with your own matching copy of the paper and `pypdf`.

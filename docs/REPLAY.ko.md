@@ -20,7 +20,7 @@
 
 ## 고정된 v25 실험 다시 실행
 
-아래 노트북 5개는 새 데이터용 예제가 아니라 이미 수행한 실험을 다시 실행하기 위한 것입니다. **당시와 동일한 원본 파일**이 필요합니다. 개인 백업을 보유한 경우 아래 경로로 복원하세요.
+아래 노트북 6개는 새 데이터용 예제가 아니라 이미 수행한 실험을 다시 실행하기 위한 것입니다. **당시와 동일한 원본 파일**이 필요합니다. 개인 백업을 보유한 경우 아래 경로로 복원하세요.
 
 ```text
 MyDrive/FSO_data/
@@ -31,8 +31,8 @@ MyDrive/FSO_data/
         ├── configuration.json
         └── resume/
             ├── stage2_resume_a.pth
-            ├── stage2_resume.json       # v27 / v31에서 확인
-            └── stage2_store.json        # v27 / v31에서 확인
+            ├── stage2_resume.json       # v27 / v31 / v35에서 확인
+            └── stage2_store.json        # v27 / v31 / v35에서 확인
 ```
 
 `extension_…` 디렉터리는 가장 최근 파일이 아니라 원본 요약 파일의 SHA로 찾습니다. v25 체크포인트 크기는 **3,250,750,999바이트**이고 SHA-256은 `c4443bd14c0e3292e4a456a715e5de27a42855097a46244d93fc573fb656f121`입니다. 노트북은 고정 가중치로 추론하며 옵티마이저 상태를 복원하지 않습니다. 개별 메타데이터를 다시 만들기보다 원본 `resume/` 전체를 비공개로 보관하는 편이 안전합니다.
@@ -43,6 +43,7 @@ MyDrive/FSO_data/
 | [v31](../notebooks/frozen/FSO_SC_power_extension_v31.ipynb) | 원본 `stage2_paper_sweep_v27/frozen_882a885033790ab2/`의 `paper_sweep_summary.json`, `sources/selected_native_bpg.zip`, 재사용하는 `cases/<id>/metrics.json` 24개. v27 실행 폴더 전체를 비공개로 보관하세요. |
 | [v32](../notebooks/frozen/FSO_SC_stage_effect_v32.ipynb) | `rebuild_v12/rebuild_v12_run1/stage1_final.pth`. 중간 에포크가 아닌 Stage 1 완료 체크포인트가 필요합니다. |
 | [v33](../notebooks/frozen/FSO_SC_receiver_transition_v33.ipynb) / [v34](../notebooks/frozen/FSO_SC_qam16_phase_repair_v34.ipynb) | 추가 입력 없음. Stage 1 체크포인트나 v27 출력을 읽지 않습니다. |
+| [v35](../notebooks/frozen/FSO_SC_fig8b_lowpower_v35.ipynb) | `stage2_paper_sweep_v27/frozen_882a885033790ab2/`의 원본 `paper_sweep_summary.json`과 `sources/selected_native_bpg.zip`. v27의 조건별 지표, v31 결과, Stage 1 체크포인트는 필요하지 않습니다. |
 
 고정 추론 노트북에는 ImageNet이나 NAIP의 **학습용** ZIP이 필요하지 않습니다. 공개된 `*_aggregate.json`은 당시 원본 요약 파일을 대신할 수 없습니다. 노트북은 입력 해시를 확인하지만, 하드웨어나 런타임이 바뀌면 작은 수치 차이는 생길 수 있습니다. 저장 공간과 연산 요구사항은 각 노트북을 참고하세요.
 
